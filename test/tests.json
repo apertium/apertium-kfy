@@ -1,0 +1,10 @@
+{
+    "analysis": {
+        "input": "analysis-input.txt",
+        "mode": "kfy-disam"
+    },
+    "generation": {
+        "input": "generation-input.txt",
+        "mode": "kfy-gener"
+    }
+}
