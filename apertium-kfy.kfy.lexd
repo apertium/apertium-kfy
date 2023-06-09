@@ -29,15 +29,24 @@
 
 PATTERNS
 ## Example inflection pattern:
-# NounRoot RegNounInfl
+NounRoot RegNounInfl
+Case
 Number
 Punctuation
+Particle
+Postposition
+Determiner
+Pronoun
+Conjunction
+Adjective
+Adverb
+Verb
 
 
 ## Example inflection lexicon:
-# LEXICON RegNounInfl
-# <n><sg>:
-# <n><pl>:>s
+LEXICON RegNounInfl
+<n><sg>:
+<n><pl>:>s
 
 
 ###############################################################################
@@ -45,8 +54,289 @@ Punctuation
 ###############################################################################
 
 ## Example stem lexicon:
-# LEXICON NounRoot
-# house:house   # A noun
+LEXICON NounRoot
+परमेश्वर# :परमेश्वर   #god
+राजा#:राजा    #King
+नाम #:नाम    #name
+
+यीशु#:यीशु     #Jesus
+मसीह#:मसीह    #Christ
+दाऊदा#:दाऊदा   #all are names below this
+अब्राहम#:अब्राहम 
+यहूदा#:यहूदा   
+इसहाक#:इसहाक
+याकूब#:याकूब 
+फिरिस#:फिरिस  
+जोरह#:जोरह  
+जोरह#:जोरह  
+तमार#:तमार   
+हिस्रोन#:हिस्रोन  
+एराम#:एराम  
+अम्मीनादाब#:अम्मीनादाब  
+नहशोन#:अम्मीनादाब  
+सलमोन#:अम्मीनादाब  
+बोअज#:बोअज  
+राहाब#:राहाब 
+ओबेद#:ओबेद 
+रूत#:रूत  
+यिशै#:यिशै 
+दाऊद#:दाऊद 
+सुलैमान#:सुलैमान  
+उरिय्याह#:उरिय्याह  
+रहबाम#:रहबाम  
+अबिय्याह#:अबिय्याह  
+आसा#:आसा  
+यहोशाफात#:यहोशाफात  
+योराम#:योराम  
+योतान#:योतान  
+आहाज#:आहाज  
+हिजकिय्याह#:हिजकिय्याह  
+मनश्शिह#:मनश्शिह 
+आमोन#:आमोन  
+योशिय्याह#:योशिय्याह  
+यकुन्याह#:यकुन्याह  
+इस्राएलीन#:इस्राएलीन 
+बेबीलोन#:बेबीलोन  
+शालतिएल#:शालतिएल  
+जरूब्बाबिल#:जरूब्बाबिल  
+अबीहूद#:अबीहूद  
+इल्याकीम#:इल्याकीम  
+अजोर#:अजोर  
+सदोक#:सदोक  
+अखीम#:अखीम  
+इलीहूद#:इलीहूद  
+इलियाजार#:इलियाजार  
+मत्तान#:मत्तान 
+याकूब#:याकूब 
+यूसुफ#:यूसुफ
+मरियम#:मरियम  
+यरूशलम#:यरूशलम
+इम्मानुएल#:इम्मानुएल
+हेरोदेस#:हेरोदेस
+यहूदिया#:यहूदिया
+बैतलहम#:बैतलहम
+यरूशलम#:यरूशलम
+मीका#:मीका
+मिस्र#:मिस्र
+होशे#:होशे
+यिर्मयाह#:यिर्मयाह
+रामाह#:रामाह
+राहेल#:राहेल 
+अरखिलाऊस#:अरखिलाऊस
+गलील#:गलील
+नासरत#:नासरत
+
+
+
+वंशज#:वंशज   #decendent
+पूर्वजून#:पूर्वजून    #Past/ Previous life
+देश#:देश    #country
+गुलामी#:गुलामी   #slavery
+जन्म#:जन्म     #birth
+पूर्वज#:पूर्वज   #ancester
+कारण#:कारण   #reason
+लोग#:लोग   #people
+आदिमी#:आदिमी   #man
+बात#:बात  #conversation/matter/fact
+कन्या#:कन्या #girl
+नीन#:नीन #sleep
+स्वर्गदूत#:स्वर्गदूत #angel
+कईना#:कईना #as said
+घर#:घर #home
+सम्बध#:सम्बध  #relation
+प्रदेश#:प्रदेश #state
+गौं#:गौं  #village
+दिशा#:दिशा #direction
+तारा#:तारा #star
+ज्ञान#:ज्ञान #knowlwdge
+पुछून#:पुछून #gerund of ask
+शैहर#:शैहर #city
+नान#:नान  # child
+करून#:करून # gerund of do
+अराधना#:अराधना #worship
+याजकून#:याजकून #priest
+मूसा#:मूसा #savior
+नियम#:नियम #rules
+शास्त्र#:शास्त्र  #script
+तरीकाले#:तरीकाले  #way
+अधिकारी#:अधिकारी #official
+प्रजा#:प्रजा #citizens
+बच्चा#:बच्चा # child
+मैंस#:मैंस #man
+खबर#:खबर #infrmation
+खुटान#:खुटान #legs
+थैलान#:थैलान #bags
+सुनो#:सुनो # gerund of listen
+धूप#:धूप #sunlight
+गन्धरस#:गन्धरस #perfume
+भेंट#:भेंट #offering
+चेतावनी#:चेतावनी #warning
+जानकारी#:जानकारी  #information
+बाटा#:बाटा #route
+मारन#:मारन #gerund of kill
+मरना#:मरना #gerund of die
+रात#:रात  #night
+ध्वाका#:ध्वाका  #betrayal
+रीस#:रीस #anger
+जाग#:जाग #gerund of wake
+सिपाई#:सिपाई #soldier 
+साल#:साल  #year
+उमर#: उमर #age
+आवाज#:आवाज #voice
+बालक#:बालक  #male child
+दिनवालान#:दिनवालान  #giver
+
+
+भाई#:भाई   #brother
+च्याला#:च्याला  #son
+च्योलो#:च्योलो    #son
+ईजा#:ईजा    #mom
+स्यैनि#:स्यैनि    #woman
+घरवाली#:घरवाली   #wife
+बुबू#:बुबू     #grandfather
+भाईन#:भाईन     #sister
+घरवालो#:घरवालो #husband
+पुस्त#:पुस्त #generation
+नानो#:नानो #grand son 
+नाहातिन#:नाहातिन #grand daughter 
+बबा#:बबा #father
+
+
+LEXICON Case
+को<gen>:को
+का<gen>:का
+की<gen>:की
+
+है<abl>:है
+स<abl>:स
+ले<abl>:ले
+
+हे<voc>:हे
+खिन<dat>:खिन
+ले<loc>:ले
+ले<nom>:ले
+स<acc>:स
+
+
+LEXICON Particle
+न<part>:न   # No
+नै<part>:नै  # Not
+
+LEXICON Pronoun
+यो<pron>:यो    #This
+येक<pron>:येक    #This
+येका<pron>:येका    #This
+तुम<pron>:तुम    #You
+उ<pron>:उ    #He/She/It
+उले<pron>:उले  #He/She/It -- subject?
+जो<pron>:जो    #Who
+उक<pron>:उक    #His
+उकी<pron>:उकी     #His/her
+उनेरि<pron>:उनेरि    #their
+अपून<pron>:अपून   #his/her
+ऊस<pron>:ऊस   #Him/Her
+हम<pron>:हम  #pron
+मैं<pron>:मैं   #me
+
+LEXICON Determiner
+यो<det>:यो       #This
+एक<det>:एक   #One
+चौदा<det>:चौदा    #Fourteen
+सब<det>:सब  #all - quantifier/determiner
+कोई<det>:कोई   #any / someone
+उई<det>:उई   #that
+कई<det>:कई   #many
+द्वी<det>:द्वी   #two
+
+
+LEXICON Postposition
+मे<post>:मे
+में<post>:में    #in
+पैलि<post>:पैलि   #before
+तक<post>:तक   #till
+भटे<post>:भटे  #from
+दगाड़<post>:दगाड़   #with
+येक<post>:येक	
+द्वारा<post>:द्वारा #through
+ले<post>:ले
+बारिमें<post>:बारिमें  #about
+अनुसार<post>:अनुसार  #according
+वाला<post>:वाला  #of / related to 
+बाद<post>:बाद  #after 
+पास<post>:पास  #near
+
+LEXICON Conjunction
+और<conjcoo>:और   #and 
+क्याखिनकि<conjcoo>:क्याखिनकि  #because
+लेकिन<conjcoo>:लेकिन  #but
+त<conjcoo>:त
+
+जब<conjsub>:जब    #when
+कि<conjsub>:कि    #that
+तैं<conjsub>:तैं
+जैको<conjsub>:जैको
+ताकि<conjsub>:ताकि
+
+LEXICON Adjective
+उन<adj>:उन  #those
+पवित्र<adj>:पवित्र    #pure
+गर्भवती<adj>:गर्भवती    #pregnant
+धर्मी<adj>:धर्मी    #pious
+बदनाम<adj>:बदनाम    #infamous
+कुँवारी<adj>:कुँवारी    #unmaried
+शाररीक<adj>:शाररीक    #physical
+पूरब<adj>:पूरब  #east
+बुद्धिमान<adj>:बुद्धिमान    #intelligent
+सारा<adj>:सारा    #many / entire
+घबरा<adj>:घबरा    #nervous
+प्रधान<adj>:प्रधान    #cheif / principal
+खुशबुदार<adj>:खुशबुदार    #fragrant
+दुसारा<adj>:दुसारा    #second 
+शान्त<adj>:शान्त    #quiet
+
+
+
+LEXICON Adverb
+तब<adv>:तब   #then
+जब<adv>:जब   #when - used in questions
+त<adv>:त  #then
+जन<adv>:जन #don't
+भौत<adv>:भौत  #too
+उथैं<adv>:उथैं  #there
+चुपचाप<adv>:चुपचाप  #silently
+ठीक-ठीक<adv>:ठीक-ठीक  #just fine / adequate
+वाँ<adv>:वाँ  #there
+अघिल<adv>:अघिल  #ahead
+पड़ीपड़ी<adv>:पड़ीपड़ी  #while sitting
+वापस<adv>:वापस  #back
+वाँई<adv>:वाँई  #there
+फिर<adv>:फिर  #then
+आश-पासा<adv>:आश-पासा  #near and आश-पासा meansvicinity
+ऐल<adv>:ऐल  #now
+
+ 
+
+LEXICON Verb
+छन<v>:छन   #is
+छै<v>:छै #is
+
+छी<v>:छी  #was
+छ्यो<v>:छ्यो  #was
+छ्या<v>:छ्या   #was
+भ्यान<v>:भ्यान  #was
+भ्योछ<v>:भ्योछ #was
+
+पैद<v>:पैद  #born
+जान<v>:जान   #go
+
+क्योछ<v>:क्योछ  #said
+
+कर<v>:कर
+करून<v>:करून  #do root-कर
+
+दीछ<v>:दीछ #root-दी
+
+हो<v>:हो   #to happen
 
 
 PATTERN Number

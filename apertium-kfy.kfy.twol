@@ -1,12 +1,18 @@
 Alphabet
- A B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z
- a b ç d e ä f g h i j ž k l m n ň o ö p r s ş t u ü w y ý z
- %{A%}:a %>:0  ;
+ अ आ इ ई उ ऊ ॠ ए ऐ ओ औ अं अः  
+क ख ग घ ङ
+च छ ज झ ञ
+ट ठ ड ढ ण
+त थ द ध न
+प फ ब भ म
+य र ल व
+श ष स ह 
+क्ष त्र ज्ञ
+ा ि ी ु ू ृ े ै ो ौ ॅ ॉ ◌ं ्  ;
 
 Sets
 
-Vowel = A E Ä I O Ö U Ü Y Ý
-        a e ä i o ö u ü y ý ;
+Vowel = अ आ इ ई उ ऊ ॠ ए ऐ ओ औ अं अः  ;
 
 Rules
 
@@ -19,4 +25,3 @@ i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
 ! https://github.com/hfst/
 ! https://wiki.apertium.org/wiki/Twol
 ! https://wiki.apertium.org/wiki/Hfst
-
