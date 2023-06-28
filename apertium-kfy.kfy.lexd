@@ -44,6 +44,7 @@ Adverb
 Verb
 IrregularVerbs
 Compound
+Interjection
 
 
 ## Example inflection lexicon:
@@ -96,7 +97,7 @@ LEXICON NounRoot
 प्रजा#:प्रजा #citizens
 बच्चा#:बच्चा # child
 खबर#:खबर #infrmation
-खुटान#:खुटान #legs
+खुट्ट#:खुट्ट #leg
 थैलान#:थैलान #bags
 धूप#:धूप #sunlight
 गन्धरस#:गन्धरस #perfume
@@ -216,7 +217,7 @@ LEXICON NounRoot
 इच्छा#:इच्छा  #wish
 करूनवाला#:करूनवाला  #someone who does an action
 सता#:सता  #torture
-निन्दा#:निन्दा  #damn
+निन्दा#:निन्दा  #criticism
 सताला#:सताला  #torture
 झूठ#:झूठ  #lie
 आरोप#:आरोप  #allegation
@@ -226,6 +227,62 @@ LEXICON NounRoot
 नमकीनपन#:नमकीनपन  #saltiness
 कामो#:कामो  #use/ purpose
 रोशनी#:रोशनी  #light
+भांणाका#:भांणाका  #utensils
+घरा#:घरा  #house
+कामून#:कामून  #work/ deeds
+तारीफ#:तारीफ  #praise/ compliment
+नानि#:नानि  #girl child
+नान#:नान  #boy child
+असर#:असर  #effect / impact
+मक्शद#:मक्शद  #motive
+हुकमून#:हुकमून	  #command/ order
+पालन#:पालन  #act of following, abiding by
+फरीसी#:फरीसी  #parsi 
+प्रवेश#:प्रवेश  #enter
+हत्या#:हत्या  #murder
+सजा#:सजा  #punishment 
+सभा#:सभा  #meeting 
+महासभा#:महासभा  #assembly
+नरक#:नर  #hell
+याद#:याद  #memory
+विरोध#:विरोध  #opposition / contradiction
+भुकतान#:भुकतान  #compensation
+ब्यभिचार#:ब्यभिचार  #adultery
+नजर#:नजर  #eyesight / sight
+दैन#:दैन  #right (direction)
+आँख#:आँख  #eye 
+शरीर#:शरीर  #body
+हिस्सा#:हिस्सा  #part/ portion
+अंगून#:अंगून  #organs
+पत्र#:पत्र  #letter
+कसम#:कसम  #swear
+खोर#:खोर  #head
+बाल#:बाल  #hair
+बदला#:बदला  #revenge
+दाँत#:दाँत  #teeth
+गाल#:गाल  #cheek
+थप्पड़#:थप्पड़  #slap
+कुरता#:कुरता  #a type of dress
+कोट#:कोट  #coat
+मुकरदमा#:मुकरदमा  #lawsuit / legal case
+किलोमीटर#:किलोमीटर  #kilometer
+पड़ोसी#:पड़ोसी  #neighbour
+बैरी#:बैरी  #enemy
+उधार#:उधार  #loan
+प्रार्थना#:प्रार्थना  #prayer 
+राखूनवालान#:राखूनवालान  #someone who keeps something
+लिनवाला#:लिनवाला  #someone who takes something
+चुंगी#:चुंगी  #toll tax
+सिद्ध#:सिद्ध  #saint
+दान#:दान  #donation 
+ढिंढोरा#:ढिंढोरा  #a type of rhythmic drum
+कपटी#:कपटी  #cheater/ fraud
+गलिन#:गलिन  #narrow lane
+बड़ाई#:बड़ाई  #praise
+चुक#:चुक  #miss/ mistake
+नियाती#:नियाती  #destiny
+सड़कून#:सड़कून  #roads
+मोडून#:मोडून  #turn / bend
 
 भाई#:भाई   #brother
 च्याला#:च्याला  #son
@@ -239,6 +296,7 @@ LEXICON NounRoot
 नानो#:नानो #grand son 
 नाहातिन#:नाहातिन #grand daughter 
 बबा#:बबा #father
+पिता#:पिता     #father
 
 LEXICON ProperNoun
 यीशु<np>:यीशु     #Jesus
@@ -323,20 +381,20 @@ LEXICON ProperNoun
 
 
 LEXICON Case
-को<case><gen>:को
-का<case><gen>:का
-की<case><gen>:की
+को<post><gen>:को
+का<post><gen>:का
+की<post><gen>:की
 
-है<case><abl>:है
-स<case><abl>:स
-ले<case><abl>:ले
-थैं<case><abl>:थैं	
+है<post><abl>:है
+स<post><abl>:स
+ले<post><abl>:ले
+थैं<post><abl>:थैं	
 
-हे<case><voc>:हे
-खिन<case><dat>:खिन
-ले<case><loc>:ले
-ले<case><nom>:ले
-स<case><acc>:स
+हे<post><voc>:हे
+खिन<post><dat>:खिन
+ले<post><loc>:ले
+ले<post><nom>:ले
+स<post><acc>:स
 
 
 LEXICON Particle
@@ -346,6 +404,7 @@ LEXICON Particle
 LEXICON Pronoun
 काँ<prn><int>:काँ   #where	
 की<prn><int>:की   #what
+कि<prn><int>:कि   #what  -- interchangable with की
 कैले<prn><int>:कैले   #who
 कसीकैं<prn><int>:कसीकैं   #how
 
@@ -375,14 +434,18 @@ LEXICON Pronoun
 हम<prn><pers><p1><pl><nom><fut>:हम   #we
 हमार<prn><pers><p1><pl><gen>:हमार   #our / ours
 
-तुम<prn><pers><p2><sg><nom>:तुम #you
+तैं<prn><pers><p2><sg><nom>:तैं  #you
+तुम<prn><pers><p2><sg><nom><for>:तुम #you
 तैथैं<prn><pers><p2><sg><acc>:तैथैं #you
 तैंस<prn><pers><p2><sg><acc>:तैंस #you  -- can be used interchangeably with तैथैं
 तुमून<prn><pers><p2><sg><acc><for>:तुमून #you (formal speech)
 तेरा<prn><pers><p2><sg><gen><m_o>:तेरा #your 
-त्यारा<prn><pers><p2><sg><gen><m_o>:त्यारा #your -- can be used interchangeably with तेरा
+त्यारा<prn><pers><p2><sg><gen><pl_o>:त्यारा #your 
+तेरि<prn><pers><p2><sg><gen><f_o>:तेरि   #your 
+तेरो<prn><pers><p2><sg><gen><f_o>:तेरो #your -- interchangeable with तेरि
 तुमार<prn><pers><p2><sg><gen><for><m_o>:तुमार #your -- masc obj in posession
 तुमेरि<prn><pers><p2><sg><gen><for><f_o>:तुमेरि #your -- fem obj in posession
+तुमोरो<prn><pers><p2><sg><gen><for><pl_o>:तुमोरो   #your -- multiple obj in posession
 
 उ<prn><pers><p3><sg><nom><pres>:उ    #he/ she/ it
 उले<prn><pers><p3><sg><nom><past>:उले    #he/ she
@@ -416,7 +479,7 @@ LEXICON Determiner
 चौदा<det>:चौदा    #Fourteen
 सब<det>:सब  #all - quantifier/determiner
 कोई<det>:कोई   #any / someone
-उई<det>:उई   #that
+उई<det>:उई   #that very/ specific
 कई<det>:कई   #many
 द्वी<det>:द्वी   #two
 उन<det>:उन  #those
@@ -426,6 +489,7 @@ LEXICON Determiner
 इसो<det><sg><m>:इसो   #like this
 इसी<det><sg><f>:इसी   #like this
 इन<det><pl>:इन   #these
+ऊसो<det>:ऊसो   #that
 
 LEXICON Postposition
 मे<post>:मे
@@ -439,7 +503,8 @@ LEXICON Postposition
 ले<post>:ले
 बारिमें<post>:बारिमें  #about
 अनुसार<post>:अनुसार  #according
-वाला<post>:वाला  #of / related to 
+वाला<post><sg>:वाला  #single object - related to
+वालान<post><pl>:वालान  #multiple object - related to
 बाद<post>:बाद  #after 
 पास<post>:पास  #near
 मलि<post>:मलि   #above 
@@ -450,6 +515,8 @@ LEXICON Postposition
 तुमूनथैं<post><p2><sg>:तुमूनथैं   #from/ by you
 उनूनमें<post><p3><pl>:उनूनमें   #in them
 उनूनथैं<post><p3><pl>:उनूनथैं   #from them
+सामुनि<post>:सामुनि   #infront
+खिन<post>:खिन  #for
 
 LEXICON Conjunction
 और<conjcoo>:और   #and 
@@ -457,12 +524,16 @@ LEXICON Conjunction
 लेकिन<conjcoo>:लेकिन  #but
 त<conjcoo>:त
 अगर<conjcoo>:अगर  #if
+या<conjcoo>:या    #or
+बल्कि<conjcoo>:बल्कि    #rather / on the contrary.
+किलैकी<conjcoo>:किलैकी   #because  -- interchangeable with क्याखिनकि
 
 जब<conjsub>:जब    #when
 कि<conjsub>:कि    #that
 तैं<conjsub>:तैं
-जैको<conjsub>:जैको
+जैको<conjsub>:जैको 
 ताकि<conjsub>:ताकि
+जसो<conjsub>:जसो	# like / as
 
 LEXICON Adjective
 पवित्र<adj>:पवित्र    #pure
@@ -513,6 +584,22 @@ LEXICON Adjective
 ठूलो<adj>:ठूलो  #big
 नमकीन<adj>:नमकीन  #salty
 ऊँचा<adj>:ऊँचा  #high
+हकदार<adj>:हकदार  #describe someone who is deserving
+मूर्ख<adj>:मूर्ख  #stupid
+बकाया<adj>:बकाया  #outstanding/ unpaid
+बुरी<adj>:बुरी  #bad 
+नष्ट<adj>:नष्ट  #describe something that is destroyed, ruined
+झूठ्ठी<adj>:झूठ्ठी  #jhooti
+महा<adj>:महा  #great
+सफेद<adj>:सफेद  #white color
+कालो<adj>:कालो  #black color
+स्वर्गीय<adj>:स्वर्गीय  #heavenly
+स्वर्गी<adj>:स्वर्गी  #heavenly  -- interchanagble with स्वर्गीय
+गैर<adj>:गैर  #other / non-
+कौन<adj>:कौन  #to ask about the specific or particular type of something --which
+सिद्ध<adj>:सिद्ध  #established / accomplished
+सतर्क<adj>:सतर्क  #alert
+गरीबून<adj>:गरीबून  #poor
 
 
 
@@ -538,6 +625,7 @@ LEXICON Adverb
 बिलकुल<adv>:बिलकुल  #absolutely 
 त<adv>:त  #Indeed
 कभे<adv>:कभे  #ever
+कभै<adv>:कभै  #ever  --same as कभे
 भ्यार<adv>:भ्यार   #out
 फटंग<adv>:फटंग   #quickly
 जाम<adv>:जाम   #gather/ collect
@@ -546,6 +634,16 @@ LEXICON Adverb
 तुरन्त<adv>:तुरन्त  #instantly
 पछिल<adv>:पछिल  #after / behind
 दुबार<adv>:दुबार  #again
+याँ<adv>:याँ  #here
+तलक<adv>:तलक  #till
+तरफ<adv>:तरफ  #indicate direction or orientation
+हाँ<adv>:हाँ  #yes
+ना<adv>:ना  #no
+जबरदस्ती<adv>:जबरदस्ती  #forcefully
+इसोई<adv>:इसोई  #like this
+केले<adv>:केले  #anything
+ले<adv>:ले  #also/ too 
+
 
  
 
@@ -572,6 +670,9 @@ LEXICON Verb
 पैन<v>:पैन  #to wore
 निकल<v>:निकल  #to go out
 बच<v>:बच  #to survive
+डर<v>:डर  #to fear
+टल<v>:टल  #to delay
+पाला<v>:पाला  #to get
 
 
 कर<v>:कर  #to do
@@ -596,6 +697,7 @@ LEXICON Verb
 ऊँन<ger>:ऊँन     #gerund of आ (come)
 सिखून<ger>:सिखून     #gerund of सिख (to learn)
 पकड़ना<ger>:पकड़ना  #gerund of पकड़ (to catch)
+तोड़ना<ger>:तोड़ना  #gerund of तोड़ (break)
 
 
 LEXICON IrregularVerbs
@@ -613,9 +715,28 @@ LEXICON IrregularVerbs
 भ्य<v><pres><sim>:भ्योछ  #happened/occured in past
 
 LEXICON Compound
-जैस<pron>+में<post>:जैमें
-उई<pron>+तरह<np>:उसीकैं
-जैस<pron>+तरह<np>:जसीकैं
+जैस<pron>+में<post>:जैमें    #in which 
+उई<pron>+तरह<n>:उसीकैं   #in the same way
+जैस<pron>+तरह<n>:जसीकैं    #as the way
+हो<v>+जा<v>:हैज्यो  #happen
+त्यारा<pron>+खिन<post>:तैखिन  #for you
+त्याग<v>+पत्र<n>:त्यागपत्र   #resignation letter
+छै<v>+लेकिन<conjcoo>:छैलेकिन
+महा<adj>+राजा<n>:महाराजा   #great king
+खोर<n>+की<post><gen>:खोराकी   #of head
+त्यारा<pron>+में<post>:तैमें     #in you
+इसो<det>+तरह<n>:इसीकैं  #like this
+जैस<pron>+तरह<n>:जसकै  #as the way
+मैं<pron>+ले<adv>:मेंले  #me too
+
+LEXICON Interjection
+नमस्कार<inter>:नमस्कार  #similar to hello
+बक-बक<inter>:बक-बक   #blah blah
+
+
+
+
+
 
 PATTERN Number
 Numeral+ [<num>:]
