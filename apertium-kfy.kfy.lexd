@@ -104,7 +104,7 @@ LEXICON NounRoot
 भेंट#:भेंट #offering
 चेतावनी#:चेतावनी #warning
 जानकारी#:जानकारी  #information
-बाटा#:बाटा #route
+बाट#:बाट #route
 रात#:रात  #night
 ध्वाका#:ध्वाका  #betrayal
 रीस#:रीस #anger
@@ -283,6 +283,66 @@ LEXICON NounRoot
 नियाती#:नियाती  #destiny
 सड़कून#:सड़कून  #roads
 मोडून#:मोडून  #turn / bend
+अपराधीन#:अपराधीन  #criminals 
+अपराधून#:अपराधून  #crimes
+राज्य#:राज्य  #a state (alternate meaning - to rule)
+बुराई#:बुराई  #evil
+पराक्रम#:पराक्रम  #courage / bravery
+महिमा#:महिमा  #state of being impressive
+बर्त#:बर्त  #fasting
+मुँख#:मुँख  #face
+ख्वारा#:ख्वारा  #head - same as खोर
+तेल#:तेल  #oil
+कीड़ा#:कीड़ा  #insect
+चोर#:चोर  #theif
+घात#:घात  #injury, harm, damage
+चोरी#:चोरी  #steal
+भलाई#:भलाई  #goodness, welfare
+मालिकून#:मालिकून  #owner 
+सेवा#:सेवा  #service 
+बैर#:बैर  #enmity
+फिकर#:फिकर  #worry
+खान#:खान  #food
+आकाश#:आकाश  #sky
+चिड़ियान#:चिड़ियान  #birds
+खत्तान#:खत्तान  #bank account
+चिन्ता#:चिन्ता  #worry
+पल#:पल  #moment
+बढ़ा#:बढ़ा  #increase 
+फुलून#:फुलून  #flowers
+मेहनत#:मेहनत  #act of making effort / working hard
+राजपाठ#:राजपाठ   #Kingship
+जंगले#:जंगले   #jungle
+घास#:घास   #grass
+आगो#:आगो   #in fire
+सुन्दरता#:सुन्दरता   #beauty
+ध्यान#:ध्यान   #attention / care
+विश्वास#:विश्वास   #trust
+चीजून#:चीजून   #things
+न्याय#:न्याय   #justice
+बर्ताव#:बर्ताव   #behavior 
+गलतिन#:गलतिन   #mistakes
+तिन्का#:तिन्का   #husk
+पाप#:पाप   #sins
+लठ्ठा#:लठ्ठा   #stick
+मद्दत#:मद्दत    #help/ assistance
+कोशिश#:कोशिश   #try
+सुधार#:सुधार    #improvement
+ढूंगो#:ढूंगो   #stone 
+स्याँप#:स्याँप   #snake
+ब्यवहार#:ब्यवहार   #behaviour 
+अर्थ#:अर्थ   #meaning / sense
+बिनाश#:बिनाश   #destruction 
+फाटक#:फाटक   #gate
+भेड़ून#:भेड़ून   #sheep
+भेष#:भेष   #disguise 
+भेड़िया#:भेड़िया   #wolf
+झाड़िन#:झाड़िन   #bushes
+अंगूर#:अंगूर   #grapes
+काँणान#:काँणान   #thorns
+झील-झालू#:झील-झालू   #thistles
+अंजीर#:अंजीर   #fig 
+
 
 भाई#:भाई   #brother
 च्याला#:च्याला  #son
@@ -402,22 +462,28 @@ LEXICON Particle
 नै<part>:नै  # Not
 
 LEXICON Pronoun
-काँ<prn><int>:काँ   #where	
-की<prn><int>:की   #what
-कि<prn><int>:कि   #what  -- interchangable with की
-कैले<prn><int>:कैले   #who
-कसीकैं<prn><int>:कसीकैं   #how
+काँ<prn><itg>:काँ   #where	
+की<prn><itg>:की   #what
+कि<prn><itg>:कि   #what  -- interchangable with की
+क्या<prn><itg>:क्या   #what (in Hindi language) -- interchangable with की and कि
+कैले<prn><itg>:कैले   #who
+कसीकैं<prn><itg>:कसीकैं   #how
 
 जैस<prn><rel>:जैस   #which
 जैका<prn><rel><sg>:जैका   #whose
 जिनारा<prn><rel><pl>:जिनारा   #whose
+जे<prn><rel>:जे  # who/ whom/ which /that
+
+अफी<prn><reflex><sp>:अफी  #myself/ yourself/ himself/ herself / themselves
 
 योई<prn><dem><emp><sg>:योई   #this is it (to emphasize that this is exactly one thing being referred)
 यो<prn><dem><sg>:यो   #this
+या<prn><dem><pl>:या  #these
 येक<prn><dem><sg>:येक   #this very (to refer to same object that is being discussed)
 जो<prn><dem><sg>:जो   #that
 
-कैकी<prn><indef><poss>:कैकी  # someone's
+कैकी<prn><indef><poss>:कैकी  #someone's
+कैमें<prn><indef>:कैमें    #in someone
 
 मैं<prn><pers><p1><sg><nom><pres>:मैं   #I
 मैंले<prn><pers><p1><sg><nom><past>:मैं   #I have/did
@@ -432,20 +498,20 @@ LEXICON Pronoun
 हमूले<prn><pers><p1><pl><nom><past>:हमूले   #we
 हमून<prn><pers><p1><pl><nom><past>:हमून   #we  -- can be used interchangeably with हमूले
 हम<prn><pers><p1><pl><nom><fut>:हम   #we
-हमार<prn><pers><p1><pl><gen>:हमार   #our / ours
+हमार<prn><pers><p1><pl><gen><pl_o>:हमार   #our / ours
+हमरि<prn><pers><p1><pl><gen><sg_o><f_o>:हमरि   #our / ours  (obj is feminine)
 
 तैं<prn><pers><p2><sg><nom>:तैं  #you
-तुम<prn><pers><p2><sg><nom><for>:तुम #you
-तैथैं<prn><pers><p2><sg><acc>:तैथैं #you
-तैंस<prn><pers><p2><sg><acc>:तैंस #you  -- can be used interchangeably with तैथैं
-तुमून<prn><pers><p2><sg><acc><for>:तुमून #you (formal speech)
+तुम<prn><pers><p2><sg><nom><frm>:तुम #you
+तैंस<prn><pers><p2><sg><acc>:तैंस #you
+तुमून<prn><pers><p2><sg><acc><frm>:तुमून #you (formal speech)
 तेरा<prn><pers><p2><sg><gen><m_o>:तेरा #your 
 त्यारा<prn><pers><p2><sg><gen><pl_o>:त्यारा #your 
 तेरि<prn><pers><p2><sg><gen><f_o>:तेरि   #your 
 तेरो<prn><pers><p2><sg><gen><f_o>:तेरो #your -- interchangeable with तेरि
-तुमार<prn><pers><p2><sg><gen><for><m_o>:तुमार #your -- masc obj in posession
-तुमेरि<prn><pers><p2><sg><gen><for><f_o>:तुमेरि #your -- fem obj in posession
-तुमोरो<prn><pers><p2><sg><gen><for><pl_o>:तुमोरो   #your -- multiple obj in posession
+तुमार<prn><pers><p2><sg><gen><frm><m_o>:तुमार #your -- masc obj in posession
+तुमेरि<prn><pers><p2><sg><gen><frm><f_o>:तुमेरि #your -- fem obj in posession
+तुमोरो<prn><pers><p2><sg><gen><frm><pl_o>:तुमोरो   #your -- multiple obj in posession
 
 उ<prn><pers><p3><sg><nom><pres>:उ    #he/ she/ it
 उले<prn><pers><p3><sg><nom><past>:उले    #he/ she
@@ -458,13 +524,13 @@ LEXICON Pronoun
 उक<prn><pers><p3><sg><gen><mf_o><pl_o>:उक   #his / her (multiple objects in posession)
 उको<prn><pers><p3><sg><gen><m_o><sg_o>:उको   #his / her (single masculine object in posession)
 उकी<prn><pers><p3><sg><gen><f_o><sg_o>:उकी   #his / her (single feminine object in posession)
-उक<prn><pers><p3><sg><gen><m_o><sg_o><for>:उक   #his (masculine obj in posession -- formal speech - showing respect to obj)
-उनार<prn><pers><p3><pl><gen><for>:उनार   #their (singular objects in posession -- formal speech - showing respect to pron)
+उक<prn><pers><p3><sg><gen><m_o><sg_o><frm>:उक   #his (masculine obj in posession -- formal speech - showing respect to obj)
+उनार<prn><pers><p3><pl><gen><frm>:उनार   #their (singular objects in posession -- formal speech - showing respect to pron)
 उनेरि<prn><pers><p3><pl><gen><f_o><sg_o>:उनेरि    #their (single feminine object in posession)
 उनोरो<prn><pers><p3><pl><gen><m_o><sg_o>:उनोरो   #their (single masculine object in posession)
 उनार<prn><pers><p3><pl><gen><mf_o><pl_o>:उनार   #their (multiple objects in posession)
 ऊस<prn><pers><p3><sg><acc>:ऊस   #him / her
-उनून<prn><pers><p3><sg><acc><for>:उनून   #him / her (formal speech)
+उनून<prn><pers><p3><sg><acc><frm>:उनून   #him / her (formal speech)
 उनून<prn><pers><p3><pl><acc>:उनून    #them
 अपून<prn><pers><p3><sg><ref><m_o>:अपून    #his / hers
 अपूनी<prn><pers><p3><sg><ref><f_o>:अपूनी   #his / hers
@@ -490,6 +556,8 @@ LEXICON Determiner
 इसी<det><sg><f>:इसी   #like this
 इन<det><pl>:इन   #these
 ऊसो<det>:ऊसो   #that
+द्वीवैन<det>:द्वीवैन    #both
+दुसरान<det>:दुसरान    #others
 
 LEXICON Postposition
 मे<post>:मे
@@ -503,7 +571,8 @@ LEXICON Postposition
 ले<post>:ले
 बारिमें<post>:बारिमें  #about
 अनुसार<post>:अनुसार  #according
-वाला<post><sg>:वाला  #single object - related to
+वाला<post><sg><m>:वाला  #related to single object -- for masculine
+वाली<post><sg><f>:वाली  #related to single object -- for feminine
 वालान<post><pl>:वालान  #multiple object - related to
 बाद<post>:बाद  #after 
 पास<post>:पास  #near
@@ -600,6 +669,24 @@ LEXICON Adjective
 सिद्ध<adj>:सिद्ध  #established / accomplished
 सतर्क<adj>:सतर्क  #alert
 गरीबून<adj>:गरीबून  #poor
+उदास<adj>:उदास  #sad
+खराब<adj>:खराब  #spoiled/ damaged
+बुर<adj>:बुर  #bad
+तुच्छ<adj>:तुच्छ  #insignificant / trivial
+कीमती<adj>:कीमती  #expensive
+जंगली<adj>:जंगली  #wild
+पुर<adj>:पुर  #full/ complete
+सुन्दर<adj>:सुन्दर  #beautiful
+इदुक<adj>:इदुक  #this much
+विश्वासी<adj>:विश्वासी  #trustworthy 
+नानि-नानि<adj>:नानि-नानि  #little
+कम<adj>:कम  #less
+ऊसोई<adj>:ऊसोई  #likewise
+शागूणो<adj>:शागूणो  #narrow and restricted
+चौड़ो<adj>:चौड़ो  #wide
+कठिन<adj>:कठिन  #difficult
+झूठ्ठो<adj>:झूठ्ठो   #false / untrue
+असल<adj>:असल  #real / genuine
 
 
 
@@ -642,7 +729,17 @@ LEXICON Adverb
 जबरदस्ती<adv>:जबरदस्ती  #forcefully
 इसोई<adv>:इसोई  #like this
 केले<adv>:केले  #anything
-ले<adv>:ले  #also/ too 
+ले<adv>:ले  #also/ too
+आज<adv>:आज  #today 
+सदा<adv>:सदा  #always
+जाँ<adv>:जाँ  #where
+ज्यादा<adv>:ज्यादा  #more/ excessive
+रोजमर्रा<adv>:रोजमर्रा  #everyday/ daily
+फिरले<adv>:फिरले  #yet/ still
+भोल<adv>:भोल  #tomorrow
+किलैं<adv>:किलैं  #why
+खुदै<adv>:खुदै  #personally
+भितर<adv>:भितर  #inside / within 
 
 
  
@@ -682,12 +779,12 @@ LEXICON Verb
 दीछ<v>:दीछ #root-दी
 हो<v>:हो   #to happen
 
-करून<ger>:करून     # gerund of do
-पुछून<ger>:पुछून                    #gerund of ask
-सुनो<ger>:सुनो                      # gerund of listen
-मारन<ger>:मारन                    #gerund of kill
-मरना<ger>:मरना                      #gerund of die
-जाग<ger>:जाग                      #gerund of wake
+करून<ger>:करून     #gerund of do
+पुछून<ger>:पुछून    #gerund of ask
+सुनो<ger>:सुनो        #gerund of listen
+मारन<ger>:मारन      #gerund of kill
+मरना<ger>:मरना      #gerund of die
+जाग<ger>:जाग         #gerund of wake
 बनना<ger>:बनना     #gerund of make
 जाणून<ger>:जाणून     #gerund of जाण (to know)
 मरून<ger>:मरून     #gerund of मरू (to die)
@@ -697,7 +794,8 @@ LEXICON Verb
 ऊँन<ger>:ऊँन     #gerund of आ (come)
 सिखून<ger>:सिखून     #gerund of सिख (to learn)
 पकड़ना<ger>:पकड़ना  #gerund of पकड़ (to catch)
-तोड़ना<ger>:तोड़ना  #gerund of तोड़ (break)
+तोड़ना<ger>:तोड़ना  #gerund of तोड़ (to break)
+लेखना<ger>:लेखना   #gerund of लेख (to write)
 
 
 LEXICON IrregularVerbs
@@ -728,10 +826,21 @@ LEXICON Compound
 इसो<det>+तरह<n>:इसीकैं  #like this
 जैस<pron>+तरह<n>:जसकै  #as the way
 मैं<pron>+ले<adv>:मेंले  #me too
+तैं<pron>+ले<adv>:तैंले  #you too
+एक<det>+का<post><gen>:एक्का	   #of / with one
+ना<part>+छै<v>:नाहतिन  #don't have
+ना<part>+छूँ<v>:नाहातिनू   #not am
+आज<adv>+का<post><gen>:आजो    #today's
+उ<pron>+में<post>:उमें  #in him/ her/ them
+तैं<pron>+थैं<post><abl>:तैथैं    #to you
+मैं<pron>+थैं<post><abl>:मैथैं	#to me
+
+
 
 LEXICON Interjection
-नमस्कार<inter>:नमस्कार  #similar to hello
-बक-बक<inter>:बक-बक   #blah blah
+नमस्कार<ij>:नमस्कार  #similar to hello
+बक-बक<ij>:बक-बक   #blah blah
+आमीन<ij>:आमीन    #amen
 
 
 
