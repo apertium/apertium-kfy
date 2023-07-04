@@ -59,289 +59,302 @@ LEXICON RegNounInfl
 
 ## Example stem lexicon:
 LEXICON NounRoot
+गुलामी#:गुलामी   #slavery (no plural form)
+नीन#:नीन #sleep
+ज्ञान#:ज्ञान #knowlwdge
+अराधना#:अराधना #worship
+तरीकाले#:तरीकाले  #way
+भेंट#:भेंट #offering
+ध्वाका#:ध्वाका  #betrayal
+रीस#:रीस #anger
+कोप#:कोप    #anger
+उमर#: उमर #age
+बपतिस्मा#:बपतिस्मा    #baptism
+प्रचार#:प्रचार    #advertize
+तरह#:तरह    #manner / way
+आग#:आग    #fire
+जाड़ा#:जाड़ा    #cold / winter
+जरूरत#:जरूरत     #need
+धूप#:धूप #sunlight 
+पानि#:पानि    #water
+कमर#:कमर    #waist
+चमड़ाक#:चमड़ाक    #leather
+प्रभु#:प्रभु    #god
+जबाब#:जबाब     #answer
+मरजी#:मरजी     #wish
+खुलि#:खुलि     #open
+प्रेम#:प्रेम     #love/ affection
+बखत#:बखत     #time
+टुक्का#:टुक्का     #apex
+मतलब#:मतलब     #meaning / interpretation
+देख-भाल#:देख-भाल     #act of protecting / look after
+ठीक#:ठीक     #repair
+मना#:मना     #denial
+धन#:धन     #money
+दौलत#:दौलत     #prosperity
+आदर#:आदर     #resepct
+भक्ति#:भक्ति     #devotion
+अधिकार#:अधिकार     #authority
+अन्यारा#:अन्यारा	     #darkness
+उज्यालो#:उज्यालो     #brightness
+जीवन#:जीवन     #life
+अनन्तकाल#:अनन्तकाल     #infinite or eternal period of time
+मौता#:मौता     #death
+उपदेश#:उपदेश  #advice/ teaching
+प्रकार#:प्रकार  #kind/ sort/ type
+पड़ीना#:पड़ीना  #affect/ influence
+चंगो#:चंगो  #fit
+शिक्षा#:शिक्षा  #education
+तसली#:तसली  #peace
+धरती#:धरती  #earth
+धार्मिकता#:धार्मिकता  #religiousness
+जीन्दगी#:जीन्दगी   #life
+सता#:सता  #torture
+निन्दा#:निन्दा  #criticism
+झूठ#:झूठ  #lie
+खुशी#:खुशी  #hapiness
+नून#:नून  #salt
+नमकीनपन#:नमकीनपन  #saltiness
+कामो#:कामो  #use/ purpose
+रोशनी#:रोशनी  #light
+असर#:असर  #effect / impact
+मक्शद#:मक्शद  #motive
+पालन#:पालन  #act of following, abiding by
+सभा#:सभा  #meeting 
+महासभा#:महासभा  #assembly
+नरक#:नर  #hell
+विरोध#:विरोध  #opposition / contradiction
+भुकतान#:भुकतान  #compensation
+ब्यभिचार#:ब्यभिचार  #adultery
+नजर#:नजर  #eyesight / sight
+दैन#:दैन  #right (direction)
+हिस्सा#:हिस्सा  #part/ portion
+कसम#:कसम  #swear
+पड़ोसी#:पड़ोसी  #neighbour
+फरीसी#:फरीसी  #parsi
+चुंगी#:चुंगी  #toll tax
+सिद्ध#:सिद्ध  #saint
+दान#:दान  #donation
+बड़ाई#:बड़ाई  #praise
+चुक#:चुक  #miss/ mistake
+नियाती#:नियाती  #destiny
+उधार#:उधार  #loan
+प्रार्थना#:प्रार्थना  #prayer 
+बुराई#:बुराई  #evil
+पराक्रम#:पराक्रम  #courage / bravery
+महिमा#:महिमा  #state of being impressive
+बर्त#:बर्त  #fasting
+घात#:घात  #injury, harm, damage
+चोरी#:चोरी  #steal
+भलाई#:भलाई  #goodness, welfare 
+सेवा#:सेवा  #service 
+बैर#:बैर  #enmity
+फिकर#:फिकर  #worry
+चिन्ता#:चिन्ता  #worry
+राजपाठ#:राजपाठ   #Kingship
+सुन्दरता#:सुन्दरता   #beauty
+ध्यान#:ध्यान   #attention / care
+विश्वास#:विश्वास   #trust
+न्याय#:न्याय   #justice
+बर्ताव#:बर्ताव   #behavior
+गलति#:गलति   #mistakes
+मद्दत#:मद्दत    #help/ assistance
+कोशिश#:कोशिश   #try
+सुधार#:सुधार    #improvement
+ब्यवहार#:ब्यवहार   #behaviour 
+अर्थ#:अर्थ   #meaning / sense
+बिनाश#:बिनाश   #destruction
+भविष्यवाणी#:भविष्यवाणी   #forecast 
+कोढ़#:कोढ़  #Leprosy
+
+
+
+नियम#:नियम  #rule / rules (same plural form)
+मछुवारा#:मछुवारा     #fisherman
+शिष्य#:शिष्य     #student
+रूप#:रूप     #form / appearance
+सूप्पो#:सूप्पो    #a type of instrument
+सन्तान#:सन्तान    #offspring
+बैरी#:बैरी  #enemy
+प्रवेश#:प्रवेश  #entery
+हत्या#:हत्या  #murder
+सजा#:सजा  #punishment 
+नानि#:नानि  #girl child  
+नान#:नान  #boy child
+चीज#:चीज   #things
+भेष#:भेष   #disguise
+नींव#:नींव   #foundation 
+बरखा#:बरखा   #rain
+बाढ़#:बाढ़   #flood
+आँधी#:आँधी   #wind
+तूफान#:तूफान   #storm 
+मूर्ख#:मूर्ख   #fool
+
+
+
+प्रजा#:प्रजा #citizens  (already plural form)
+लोग#:लोग   #people
+लोगो<n><gen>:लोगो  #people
+भूसा#:भूसा    #chaff
+जूता#:जूता     #shoes
+सुसमाचार#:सुसमाचार  #good news
+भीड़#:भीड़  #crowd
+ढिंढोरा#:ढिंढोरा  #a type of rhythmic drumming 
+
+
+
+बच्चा#:बच्चा # child (irreguar plural form)
+कन्या#:कन्या #girl
+परीक्षा#:परीक्षा     #test
+जाड़ा#:जाड़ा     #roots
+काँणा#:काँणा   #thorns
+डाँण#:डाँण     #hill/ mountain
+इच्छा#:इच्छा  #wish
+भांणाका#:भांणाका  #utensils
+याद#:याद  #memory
+दाँत#:दाँत  #teeth
+मुकरदमा#:मुकरदमा  #lawsuit / legal case
+गुरू#:गुरू  #teacher
+
+
 परमेश्वर# :परमेश्वर   #god
 राजा#:राजा    #King
 नाम #:नाम    #name
-
 वंशज#:वंशज   #decendent
-पूर्वजून#:पूर्वजून    #Past/ Previous life
 देश#:देश    #country
-गुलामी#:गुलामी   #slavery
 जन्म#:जन्म     #birth
-पूर्वज#:पूर्वज   #ancester
+पूर्वज#:पूर्वज   #ancestor
 कारण#:कारण   #reason
-लोग#:लोग   #people
-लोगो<n><gen>:लोगो  #people
 आदिमी#:आदिमी   #man
 बात#:बात  #conversation/matter/fact
-कन्या#:कन्या #girl
-नीन#:नीन #sleep
 स्वर्गदूत#:स्वर्गदूत #angel
 घर#:घर #home
+घरा#:घरा  #home  -- can be used interchangeably with घर (singular form)
 सम्बध#:सम्बध  #relation
 प्रदेश#:प्रदेश #state
 प्रदेशा#:प्रदेशा   #state -- can be used interchangeably with प्रदेश
 गौं#:गौं  #village
 दिशा#:दिशा #direction
 तारा#:तारा #star
-ज्ञान#:ज्ञान #knowlwdge
 शैहर#:शैहर #city
 नान#:नान  # child
-अराधना#:अराधना #worship
-याजकून#:याजकून #priest
+याजक#:याजक #priest
 मूसा#:मूसा #savior
-नियम#:नियम #rules
 शास्त्र#:शास्त्र  #script
-तरीकाले#:तरीकाले  #way
 अधिकारी#:अधिकारी #official
-प्रजा#:प्रजा #citizens
-बच्चा#:बच्चा # child
-खबर#:खबर #infrmation
+खबर#:खबर #information
 खुट्ट#:खुट्ट #leg
-थैलान#:थैलान #bags
-धूप#:धूप #sunlight
+थैला#:थैला #bag
 गन्धरस#:गन्धरस #perfume
-भेंट#:भेंट #offering
 चेतावनी#:चेतावनी #warning
 जानकारी#:जानकारी  #information
 बाट#:बाट #route
 रात#:रात  #night
-ध्वाका#:ध्वाका  #betrayal
-रीस#:रीस #anger
 सिपाई#:सिपाई #soldier 
 साल#:साल  #year
-उमर#: उमर #age
 आवाज#:आवाज #voice
 बालक#:बालक  #male child
-दिनवालान#:दिनवालान  #giver
 दिन#:दिन  #day
-दिनून#:दिनून    #days
-बपतिस्मा#:बपतिस्मा    #baptism
-पानि#:पानि    #water
 रसम#:रसम    #ritual
 जागा#:जागा    #place
-प्रचार#:प्रचार    #advertize
 ऊँट#:ऊँट    #camel
-बालून#:बालून    #hair
+बाल#:बाल    #hair
 कपाड़ा#:कपाड़ा    #clothes 
-कमर#:कमर    #waist 
-चमड़ाक#:चमड़ाक    #leather
-पट्टा#:पट्टा    #strap
+ पट्टा#:पट्टा    #strap
 मौ#:मौ    #honey
-पिटींग#:पिटींग    #insect
+पिटींग#:पिटींग    #insect which can fly
+कीड़ा#:कीड़ा  #insect
 नदी#:नदी    #river
 पापी#:पापी    #sinner
 हात#:हात    #hand
-परमेश्वर#:परमेश्वर    #god
-प्रभु#:प्रभु    #god	
-कोप#:कोप    #anger
 काम#:काम    #work
 सबूत#:सबूत    #proof
-ढ़ुगान#:ढ़ुगान    #stone 
-सन्तान#:सन्तान    #offspring / child
-तरह#:तरह    #manner / way
-आग#:आग    #fire
-जाड़ा#:जाड़ा    #winter
-उनवालो#:उनवालो    #someone who is comming
+ढ़ुगा#:ढ़ुगा    #stone 
 सेवक#:सेवक    #servant 
-सूप्पो#:सूप्पो    #a type of instrument
 खेती#:खेती    #farming
 फसल#:फसल    #crop 
 ग्यूँका#:ग्यूँका    #wheat
-दानान#:दानान    #grains
-भूसा#:भूसा    #chaff
+दाना#:दाना    #grain
 किनार#:किनार     #corner
-जरूरत#:जरूरत     #need
-जबाब#:जबाब     #answer 
-मरजी#:मरजी     #wish 
-खुलि#:खुलि     #open 
 कबूतर#:कबूतर     #pigeon
-रूप#:रूप     #form / appearance
-प्रेम#:प्रेम     #love/ affection
-बखत#:बखत     #time
-परीक्षा#:परीक्षा     #test
 रोटा#:रोटा     #roti
-बचन#:बचन     #words
+बचन#:बचन     #word
 नगर#:नगर     #city
 मन्दिर#:मन्दिर     #temple 
-टुक्का#:टुक्का     #apex
-मतलब#:मतलब     #meaning / interpretation
-राज्य#:राज्य     #rule
-देख-भाल#:देख-भाल     #act of protecting / look after
-ठीक#:ठीक     #repair
-मना#:मना     #denial
 बनकाटो#:बनकाटो     #axe
 रूख#:रूख     #tree
-जाड़ा#:जाड़ा     #roots
 फल#:फल     #fruit
-जूता#:जूता     #shoes
 भखार#:भखार     #barn
-डाँण#:डाँण     #hill/ mountain 
-संसार#:संसार     #universe/world
-धन#:धन     #money
-दौलत#:दौलत     #prosperity
-आदर#:आदर     #resepct
-भक्ति#:भक्ति     #devotion
+संसार#:संसार     #universe/world 
 झीला#:झीला     #lake
 इलाका#:इलाका	     #area
 गोत्र#:गोत्र     #lineage / clan
-अधिकार#:अधिकार     #authority
-अन्यारा#:अन्यारा	     #darkness
-उज्यालो#:उज्यालो     #brightness
 मार्ग#:मार्ग     #route/ way
-जीवन#:जीवन     #life
-अनन्तकाल#:अनन्तकाल     #infinite or eternal period of time
-मौता#:मौता     #death
 जाल#:जाल     #net 
 माछा#:माछा     #fish
-मछुवारा#:मछुवारा     #fisherman
-शिष्य#:शिष्य     #student
 नाव#:नाव  #boat
 सभाघर#:सभाघर  #meeting room
-उपदेश#:उपदेश  #advice/ teaching
-सुसमाचार#:सुसमाचार  #good news
-प्रकार#:प्रकार  #kind/ sort/ type
-बिमारीन#:बिमारीन  #disease
-कमजोरीन#:कमजोरीन  #weakness
-दुखून#:दुखून  #sadness
-पड़ीना#:पड़ीना  #affect/ influence
+बिमारी#:बिमारी  #disease
+कमजोरी#:कमजोरी  #weakness
+दुखू#:दुखू  #sadness
 भूत#:भूत   #ghost
-रोगीन#:रोगीन  #illness
-चंगो#:चंगो  #fit
-भीड़#:भीड़  #crowd
-शिक्षा#:शिक्षा  #education
-तसली#:तसली  #peace
-धरती#:धरती  #earth
-धार्मिकता#:धार्मिकता  #religiousness
-जीन्दगी#:जीन्दगी   #life
-इच्छा#:इच्छा  #wish
-करूनवाला#:करूनवाला  #someone who does an action
-सता#:सता  #torture
-निन्दा#:निन्दा  #criticism
-सताला#:सताला  #torture
-झूठ#:झूठ  #lie
+रोगी#:रोगी  #person who are ill
 आरोप#:आरोप  #allegation
-खुशी#:खुशी  #hapiness
 ईनाम#:ईनाम  #prize
-नून#:नून  #salt
-नमकीनपन#:नमकीनपन  #saltiness
-कामो#:कामो  #use/ purpose
-रोशनी#:रोशनी  #light
-भांणाका#:भांणाका  #utensils
-घरा#:घरा  #house
-कामून#:कामून  #work/ deeds
+काम#:काम  #work/ deeds
 तारीफ#:तारीफ  #praise/ compliment
-नानि#:नानि  #girl child
-नान#:नान  #boy child
-असर#:असर  #effect / impact
-मक्शद#:मक्शद  #motive
-हुकमून#:हुकमून	  #command/ order
-पालन#:पालन  #act of following, abiding by
-फरीसी#:फरीसी  #parsi 
-प्रवेश#:प्रवेश  #enter
-हत्या#:हत्या  #murder
-सजा#:सजा  #punishment 
-सभा#:सभा  #meeting 
-महासभा#:महासभा  #assembly
-नरक#:नर  #hell
-याद#:याद  #memory
-विरोध#:विरोध  #opposition / contradiction
-भुकतान#:भुकतान  #compensation
-ब्यभिचार#:ब्यभिचार  #adultery
-नजर#:नजर  #eyesight / sight
-दैन#:दैन  #right (direction)
+हुकम#:हुकम	  #command/ order
 आँख#:आँख  #eye 
 शरीर#:शरीर  #body
-हिस्सा#:हिस्सा  #part/ portion
-अंगून#:अंगून  #organs
+अंग#:अंग  #organ
 पत्र#:पत्र  #letter
-कसम#:कसम  #swear
 खोर#:खोर  #head
 बाल#:बाल  #hair
 बदला#:बदला  #revenge
-दाँत#:दाँत  #teeth
 गाल#:गाल  #cheek
 थप्पड़#:थप्पड़  #slap
 कुरता#:कुरता  #a type of dress
 कोट#:कोट  #coat
-मुकरदमा#:मुकरदमा  #lawsuit / legal case
 किलोमीटर#:किलोमीटर  #kilometer
-पड़ोसी#:पड़ोसी  #neighbour
-बैरी#:बैरी  #enemy
-उधार#:उधार  #loan
-प्रार्थना#:प्रार्थना  #prayer 
-राखूनवालान#:राखूनवालान  #someone who keeps something
-लिनवाला#:लिनवाला  #someone who takes something
-चुंगी#:चुंगी  #toll tax
-सिद्ध#:सिद्ध  #saint
-दान#:दान  #donation 
-ढिंढोरा#:ढिंढोरा  #a type of rhythmic drum
 कपटी#:कपटी  #cheater/ fraud
-गलिन#:गलिन  #narrow lane
-बड़ाई#:बड़ाई  #praise
-चुक#:चुक  #miss/ mistake
-नियाती#:नियाती  #destiny
-सड़कून#:सड़कून  #roads
-मोडून#:मोडून  #turn / bend
-अपराधीन#:अपराधीन  #criminals 
-अपराधून#:अपराधून  #crimes
+गलि#:गलि  #narrow lane
+सड़क#:सड़क  #road
+मोड#:मोड  #turn / bend
+अपराधी#:अपराधी  #criminal 
+अपराध#:अपराध  #crime
 राज्य#:राज्य  #a state (alternate meaning - to rule)
-बुराई#:बुराई  #evil
-पराक्रम#:पराक्रम  #courage / bravery
-महिमा#:महिमा  #state of being impressive
-बर्त#:बर्त  #fasting
 मुँख#:मुँख  #face
-ख्वारा#:ख्वारा  #head - same as खोर
+ख्वारा#:ख्वारा  #head - same as खोर (signular form)
 तेल#:तेल  #oil
-कीड़ा#:कीड़ा  #insect
 चोर#:चोर  #theif
-घात#:घात  #injury, harm, damage
-चोरी#:चोरी  #steal
-भलाई#:भलाई  #goodness, welfare
-मालिकून#:मालिकून  #owner 
-सेवा#:सेवा  #service 
-बैर#:बैर  #enmity
-फिकर#:फिकर  #worry
+मालिक#:मालिक  #owner
 खान#:खान  #food
 आकाश#:आकाश  #sky
-चिड़ियान#:चिड़ियान  #birds
-खत्तान#:खत्तान  #bank account
-चिन्ता#:चिन्ता  #worry
+चिड़िया#:चिड़िया  #bird
+खत्ता#:खत्ता  #bank account
 पल#:पल  #moment
 बढ़ा#:बढ़ा  #increase 
-फुलून#:फुलून  #flowers
+फुल#:फुल  #flower
 मेहनत#:मेहनत  #act of making effort / working hard
-राजपाठ#:राजपाठ   #Kingship
 जंगले#:जंगले   #jungle
 घास#:घास   #grass
 आगो#:आगो   #in fire
-सुन्दरता#:सुन्दरता   #beauty
-ध्यान#:ध्यान   #attention / care
-विश्वास#:विश्वास   #trust
-चीजून#:चीजून   #things
-न्याय#:न्याय   #justice
-बर्ताव#:बर्ताव   #behavior 
-गलतिन#:गलतिन   #mistakes
 तिन्का#:तिन्का   #husk
-पाप#:पाप   #sins
+पाप#:पाप   #sin
 लठ्ठा#:लठ्ठा   #stick
-मद्दत#:मद्दत    #help/ assistance
-कोशिश#:कोशिश   #try
-सुधार#:सुधार    #improvement
 ढूंगो#:ढूंगो   #stone 
 स्याँप#:स्याँप   #snake
-ब्यवहार#:ब्यवहार   #behaviour 
-अर्थ#:अर्थ   #meaning / sense
-बिनाश#:बिनाश   #destruction 
-फाटक#:फाटक   #gate
-भेड़ून#:भेड़ून   #sheep
-भेष#:भेष   #disguise 
+ फाटक#:फाटक   #gate
+भेड़#:भेड़   #sheep
 भेड़िया#:भेड़िया   #wolf
-झाड़िन#:झाड़िन   #bushes
+झाड़ि#:झाड़ि   #bushes
 अंगूर#:अंगूर   #grapes
-काँणान#:काँणान   #thorns
-झील-झालू#:झील-झालू   #thistles
+झील-झाल#:झील-झाल   #thistle
 अंजीर#:अंजीर   #fig 
+चट्‍टान#:चट्‍टान  #rock
+रेत#:रेत   #sand
+चमत्कार#:चमत्कार  #miracle
+कोढ़ी#:कोढ़ी  #person suffering from Leprosy
 
 
 भाई#:भाई   #brother
@@ -349,14 +362,14 @@ LEXICON NounRoot
 च्योलो#:च्योलो    #son
 ईजा#:ईजा    #mom
 स्यैनि#:स्यैनि    #woman
-घरवाली#:घरवाली   #wife
 बुबू#:बुबू     #grandfather
-घरवालो#:घरवालो #husband
 पुस्त#:पुस्त #generation
 नानो#:नानो #grand son 
 नाहातिन#:नाहातिन #grand daughter 
 बबा#:बबा #father
 पिता#:पिता     #father
+
+
 
 LEXICON ProperNoun
 यीशु<np>:यीशु     #Jesus
@@ -472,7 +485,8 @@ LEXICON Pronoun
 जैस<prn><rel>:जैस   #which
 जैका<prn><rel><sg>:जैका   #whose
 जिनारा<prn><rel><pl>:जिनारा   #whose
-जे<prn><rel>:जे  # who/ whom/ which /that
+जे<prn><rel>:जे  #who/ whom/ which /that
+जेले<prn><rel><sg>:जेले  #who/ whom
 
 अफी<prn><reflex><sp>:अफी  #myself/ yourself/ himself/ herself / themselves
 
@@ -482,8 +496,7 @@ LEXICON Pronoun
 येक<prn><dem><sg>:येक   #this very (to refer to same object that is being discussed)
 जो<prn><dem><sg>:जो   #that
 
-कैकी<prn><indef><poss>:कैकी  #someone's
-कैमें<prn><indef>:कैमें    #in someone
+कै<prn><indef>:कै  #someone
 
 मैं<prn><pers><p1><sg><nom><pres>:मैं   #I
 मैंले<prn><pers><p1><sg><nom><past>:मैं   #I have/did
@@ -553,11 +566,13 @@ LEXICON Determiner
 चालीस<det>:चालीस   #40
 द्वीवै<det>:द्वीवै    #both
 इसो<det><sg><m>:इसो   #like this
+इसा<det><sg><m>:इसा  #same as इसो
 इसी<det><sg><f>:इसी   #like this
 इन<det><pl>:इन   #these
 ऊसो<det>:ऊसो   #that
 द्वीवैन<det>:द्वीवैन    #both
 दुसरान<det>:दुसरान    #others
+
 
 LEXICON Postposition
 मे<post>:मे
@@ -574,6 +589,7 @@ LEXICON Postposition
 वाला<post><sg><m>:वाला  #related to single object -- for masculine
 वाली<post><sg><f>:वाली  #related to single object -- for feminine
 वालान<post><pl>:वालान  #multiple object - related to
+वालो<post><pl>:वालो  #same as वालान
 बाद<post>:बाद  #after 
 पास<post>:पास  #near
 मलि<post>:मलि   #above 
@@ -602,7 +618,8 @@ LEXICON Conjunction
 तैं<conjsub>:तैं
 जैको<conjsub>:जैको 
 ताकि<conjsub>:ताकि
-जसो<conjsub>:जसो	# like / as
+जसो<conjsub>:जसो	#like / as
+भेरन<conjsub>:भेरन   #after
 
 LEXICON Adjective
 पवित्र<adj>:पवित्र    #pure
@@ -687,6 +704,9 @@ LEXICON Adjective
 कठिन<adj>:कठिन  #difficult
 झूठ्ठो<adj>:झूठ्ठो   #false / untrue
 असल<adj>:असल  #real / genuine
+भौत<adj>:भौत     #too many
+हैरान<adj>:हैरान     #surprised
+सच्चो<adj>:सच्चो     #true / real
 
 
 
@@ -724,7 +744,8 @@ LEXICON Adverb
 याँ<adv>:याँ  #here
 तलक<adv>:तलक  #till
 तरफ<adv>:तरफ  #indicate direction or orientation
-हाँ<adv>:हाँ  #yes
+हाँ<adv>:हाँ  #yes --adopted from hindi language
+होई<adv>:होई  #yes --same as हाँ
 ना<adv>:ना  #no
 जबरदस्ती<adv>:जबरदस्ती  #forcefully
 इसोई<adv>:इसोई  #like this
@@ -740,6 +761,7 @@ LEXICON Adverb
 किलैं<adv>:किलैं  #why
 खुदै<adv>:खुदै  #personally
 भितर<adv>:भितर  #inside / within 
+
 
 
  
@@ -834,6 +856,46 @@ LEXICON Compound
 उ<pron>+में<post>:उमें  #in him/ her/ them
 तैं<pron>+थैं<post><abl>:तैथैं    #to you
 मैं<pron>+थैं<post><abl>:मैथैं	#to me
+नाम<n>+ले<post><able>:नामेंले	#by name
+आ<v>+वालो<post><pl>:उनवालो    #someone who is comming
+कर<v>+वाला<post><pl><m>:करूनवाला  #someone who does an action
+रख<v>+वालान<post><pl>:राखूनवालान  #someone who keeps something
+ली<v>+वाला<post><sg><m>:लिनवाला  #someone who takes something
+घर<n>+वालो<post><pl>:घरवालो #family members -- more generally husband
+घर<n>+वाली<post><sg><f>:घरवाली   #wife
+मूर्ख<n>+का<post><gen>:मूर्खाका
+आ+वालो<post><pl>:ऊँनवालो  #someone who is comming --same as उनवालो
+दी<v>+वाला<post><sg><m>:दिनवाला  #someone who gives
+कै<pron>+थैं<post><abl>:कैंथैं  #to someone
+कै<pron>+की<post><gen>:कैकी  #someone's
+कै<pron>+में<post>:कैमें  #in someone
+जा<v>+भेरन<conjcoo>:जाभेरन  #after going
+बना<v>+भेरन<conjcoo>:बनाभेरन  #after making
+ली<v>+भेरन<conjcoo>:लीभेरन  #after taking
+देख<v>+भेरन<conjcoo>:देखिभेरन  #after seeing
+आ<v>+भेरन<conjcoo>:आभेरन  #after comming
+सुण<v>+भेरन<conjcoo>:सुणभरेन  #after listening
+सुण<v>+भेरन<conjcoo>:सुणिभेरन  #after listening  --same as सुणभरेन
+बन<v>+भेरन<conjcoo>:बनभेरन  #after being
+बुला<v>+भेरन<conjcoo>:बुलाभेरन  #after calling
+भेज<v>+भेरन<conjcoo>:भेजिभेरन  #after sending
+खोल<v>+भेरन<conjcoo>:खोलभेरन  #after opening
+उठ<v>+भेरन<conjcoo>:उठाभेरन  #after standing / waking
+पा<v>+भेरन<conjcoo>:पाभेरन  #after getting
+निकाल<v>+भेरन<conjcoo>:निकालभेरन  #after taking out
+मान<v>+भेरन<conjcoo>:मानभेरन  #after knowning / understanding
+काट<v>+भेरन<conjcoo>:काटिभेरन  #after cutting
+डाल<v>+भेरन<conjcoo>:डालभेरन  #after putting in
+दिखा<v>+भेरन<conjcoo>:दिखाभेरन  #after showing
+झुक<v>+भेरन<conjcoo>:झुकभेरन  #after bending / bowing
+छोड़<v>+भेरन<conjcoo>:छोड़भेरन  #after leaving
+छोड़ि<v>+भेरन<conjcoo>:छोड़िभेरन  #after leaving --same as छोड़भेरन 
+बोल<v>+भेरन<conjcoo>:बोलभेरन  #after speaking
+खित<v>+भेरन<conjcoo>:खितीभेरन  #after throwing / falling
+जला<v>+भेरन<conjcoo>:जलाभेरन  #after burning
+बढ़<v>+भेरन<conjcoo>:बढ़भेरन  #after increasing
+बढ़ा<v>+भेरन<conjcoo>:बढ़ाभेरन  #after making something increase
+लगा<v>+भेरन<conjcoo>:लगाभेरन  #after applying/ putting something
 
 
 
