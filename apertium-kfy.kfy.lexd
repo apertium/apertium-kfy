@@ -63,7 +63,7 @@ LEXICON NounRoot
 नीन#:नीन #sleep
 ज्ञान#:ज्ञान #knowlwdge
 अराधना#:अराधना #worship
-तरीकाले#:तरीकाले  #way
+तरीका#:तरीका  #way
 भेंट#:भेंट #offering
 ध्वाका#:ध्वाका  #betrayal
 रीस#:रीस #anger
@@ -166,6 +166,7 @@ LEXICON NounRoot
 बिनाश#:बिनाश   #destruction
 भविष्यवाणी#:भविष्यवाणी   #forecast 
 कोढ़#:कोढ़  #Leprosy
+स्वर्ग#:स्वर्ग   #heaven 
 
 
 
@@ -200,6 +201,7 @@ LEXICON NounRoot
 सुसमाचार#:सुसमाचार  #good news
 भीड़#:भीड़  #crowd
 ढिंढोरा#:ढिंढोरा  #a type of rhythmic drumming 
+रोमी#:रोमी   #romans
 
 
 
@@ -298,6 +300,7 @@ LEXICON NounRoot
 कमजोरी#:कमजोरी  #weakness
 दुखू#:दुखू  #sadness
 भूत#:भूत   #ghost
+रोग#:रोग  #illness
 रोगी#:रोगी  #person who are ill
 आरोप#:आरोप  #allegation
 ईनाम#:ईनाम  #prize
@@ -355,6 +358,9 @@ LEXICON NounRoot
 रेत#:रेत   #sand
 चमत्कार#:चमत्कार  #miracle
 कोढ़ी#:कोढ़ी  #person suffering from Leprosy
+सुबेदार#:सुबेदार  #governor
+संदेश#:संदेश  #message
+आत्मा#आत्मा   #soul
 
 
 भाई#:भाई   #brother
@@ -461,7 +467,8 @@ LEXICON Case
 है<post><abl>:है
 स<post><abl>:स
 ले<post><abl>:ले
-थैं<post><abl>:थैं	
+थैं<post><abl>:थैं
+ई<post><abl>:ई	
 
 हे<post><voc>:हे
 खिन<post><dat>:खिन
@@ -473,6 +480,7 @@ LEXICON Case
 LEXICON Particle
 न<part>:न   # No
 नै<part>:नै  # Not
+नी<part>:नी  #no
 
 LEXICON Pronoun
 काँ<prn><itg>:काँ   #where	
@@ -497,13 +505,15 @@ LEXICON Pronoun
 जो<prn><dem><sg>:जो   #that
 
 कै<prn><indef>:कै  #someone
+सबून<prn><indef>:सबून  #everyone
 
 मैं<prn><pers><p1><sg><nom><pres>:मैं   #I
-मैंले<prn><pers><p1><sg><nom><past>:मैं   #I have/did
+मैंले<prn><pers><p1><sg><nom><past>:मैंले   #I have/did
 मैं<prn><pers><p1><sg><nom><fut>:मैं   #I 
 मैंस<prn><pers><p1><sg><acc>:मैंस    #me
-मेरि<prn><pers><p1><sg><gen><sg_o><f_o>:मेरि   #my
-म्येरो<prn><pers><p1><sg><gen><sg_o><m_o>:म्येरो   #my
+मेरि<prn><pers><p1><sg><gen><sg_o><f_o>:मेरि   #my - feminine single object
+म्येरो<prn><pers><p1><sg><gen><sg_o><m_o>:म्येरो   #my - masculine single object
+म्यरो<prn><pers><p1><sg><gen><pl_o>:म्यरो #my - multiple objects
 म्यार<prn><pers><p1><sg><gen><pl_o>:म्यार   #my
 म्यारा<prn><pers><p1><sg><gen><pl_o>:म्यारा   #my -- can be used interchangeably with म्यार			
 
@@ -545,8 +555,10 @@ LEXICON Pronoun
 ऊस<prn><pers><p3><sg><acc>:ऊस   #him / her
 उनून<prn><pers><p3><sg><acc><frm>:उनून   #him / her (formal speech)
 उनून<prn><pers><p3><pl><acc>:उनून    #them
-अपून<prn><pers><p3><sg><ref><m_o>:अपून    #his / hers
-अपूनी<prn><pers><p3><sg><ref><f_o>:अपूनी   #his / hers
+अपून<prn><pers><p3><sg><ref><m_o>:अपून    #his / hers  - singular obj
+अपूनास<prn><pers><p3><sg><ref><m_o><frm>:अपूनास #his / hers - singular obj (formal speech)
+अपूनी<prn><pers><p3><sg><ref><f_o>:अपूनी   #his / hers - singular obj
+अपूनास<prn><pers><p3><sg><ref><mf_o><pl_o>:अपूनास #his / hers - plural obj
 अपूनो<prn><pers><p3><pl><ref>:अपूनो   #their
 
 
@@ -707,6 +719,7 @@ LEXICON Adjective
 भौत<adj>:भौत     #too many
 हैरान<adj>:हैरान     #surprised
 सच्चो<adj>:सच्चो     #true / real
+लायक<adj>:लायक     #capable
 
 
 
@@ -723,7 +736,6 @@ LEXICON Adverb
 अघिल<adv>:अघिल  #ahead
 पड़ीपड़ी<adv>:पड़ीपड़ी  #while sitting
 वापस<adv>:वापस  #back
-वाँई<adv>:वाँई  #there
 फिर<adv>:फिर  #then
 आश-पासा<adv>:आश-पासा  #near and आश-पासा meansvicinity
 ऐल<adv>:ऐल  #now
@@ -753,6 +765,7 @@ LEXICON Adverb
 ले<adv>:ले  #also/ too
 आज<adv>:आज  #today 
 सदा<adv>:सदा  #always
+हमेशा<adv>:हमेशा  #always
 जाँ<adv>:जाँ  #where
 ज्यादा<adv>:ज्यादा  #more/ excessive
 रोजमर्रा<adv>:रोजमर्रा  #everyday/ daily
@@ -761,6 +774,7 @@ LEXICON Adverb
 किलैं<adv>:किलैं  #why
 खुदै<adv>:खुदै  #personally
 भितर<adv>:भितर  #inside / within 
+अब<adv>:अब   #now
 
 
 
@@ -778,8 +792,8 @@ LEXICON Verb
 मनाया<v>:मनाया	 #to celebrate
 खिती<v>:खिती	 #to throw
 कुचली<v>:कुचली	 #to crush
-उठा<v>:उठा	 #to pick
-ग्यो<v>:ग्यो	
+उठा<v>:उठा #to pick
+ग्यो<v>:ग्यो #to go
 हुकुम<v>:हुकुम #to order
 साबित<v>:साबित #to prove
 हाण<v>:हाण	  #to jump
@@ -852,6 +866,7 @@ LEXICON Compound
 एक<det>+का<post><gen>:एक्का	   #of / with one
 ना<part>+छै<v>:नाहतिन  #don't have
 ना<part>+छूँ<v>:नाहातिनू   #not am
+ना<part>+छूँ<v>:न्हैतिनू    #not am - same as  नाहातिनू
 आज<adv>+का<post><gen>:आजो    #today's
 उ<pron>+में<post>:उमें  #in him/ her/ them
 तैं<pron>+थैं<post><abl>:तैथैं    #to you
@@ -896,6 +911,10 @@ LEXICON Compound
 बढ़<v>+भेरन<conjcoo>:बढ़भेरन  #after increasing
 बढ़ा<v>+भेरन<conjcoo>:बढ़ाभेरन  #after making something increase
 लगा<v>+भेरन<conjcoo>:लगाभेरन  #after applying/ putting something
+याँ<adv>+ई<post><abl>:याँई  #from here
+वाँ<adv>+ई<post><abl>:वाँई  #from there
+कर<v>+भेरन<conjcoo>:करभेरन  #after doing
+तरीका<n>+ले<post><abl>:तरीकाले  #through a way
 
 
 
@@ -903,6 +922,7 @@ LEXICON Interjection
 नमस्कार<ij>:नमस्कार  #similar to hello
 बक-बक<ij>:बक-बक   #blah blah
 आमीन<ij>:आमीन    #amen
+गिड़-गिड़ा<ij>:गिड़-गिड़ा    #sound of an action
 
 
 
