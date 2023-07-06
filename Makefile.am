@@ -36,11 +36,11 @@ TARGETS_COMMON =			\
 	cat $< | grep -v 'Dir/RL' > $@
 
 .deps/$(LANG1).RL.lexd.hfst: .deps/$(LANG1).RL.lexd
-	lexd $< .deps/$(LANG1).RL.lexd.att
+	lexd -U $< .deps/$(LANG1).RL.lexd.att
 	hfst-txt2fst .deps/$(LANG1).RL.lexd.att -o $@
 
 .deps/$(LANG1).LR.lexd.hfst: .deps/$(LANG1).LR.lexd
-	lexd $< .deps/$(LANG1).LR.lexd.att
+	lexd -U $< .deps/$(LANG1).LR.lexd.att
 	hfst-txt2fst .deps/$(LANG1).LR.lexd.att -o $@
 
 
