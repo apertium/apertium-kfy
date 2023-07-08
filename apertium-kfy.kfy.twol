@@ -11,7 +11,9 @@ Alphabet
 ा ि ी ु ू ृ े ै ो ौ ॅ ॉ ◌ं ् 
 %{R%}:ू  %{R%}:0  
 %{I1%}:ओ  %{I1%}:ो  
-%{I1%}:ि  %{I1%}:इ  ;
+%{I1%}:ि  %{I1%}:इ 
+%{F1%}:ू  %{F1%}:उ 
+%>:0;
 
 Sets
 
@@ -20,11 +22,13 @@ Vowel = अ आ इ ई उ ऊ ॠ ए ऐ ओ औ अं अः ा ि ी �
 Rules
 
 "If the root lexicon ends with vowel, do not add vowel in the regular plural forms"
-%{R%}:0 <=> Vowel _ ;
+%{R%}:0 <=> Vowel ( %>: ) _ ;
 "If the root lexicon ends with vowel, add ओ  in the irregular plural forms"
 %{I1%}:ओ  <=> Vowel _ ;
 "If the root lexicon ends with ई, replace it with इ  in the irregular plural forms"
 %{I2%}:इ <=> ई _ ;
+"If the root lexicon ends with Vowel, add उ to the Fut1 verb forms"
+%{F1%}:उ <=> Vowel _  ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol

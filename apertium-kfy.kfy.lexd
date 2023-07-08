@@ -50,7 +50,15 @@ Conjunction
 Adjective
 Adverb
 Verb
-IrregularVerbs
+Verb[pres] PresInfl
+Verb[past] PastInfl
+Verb[fut1] Fut1Infl
+Verb[fut23] Fut23Infl
+IrregVerbs
+IrregVerbs[pres] PresInfl
+IrregVerbs[past] PastInfl
+IrregVerbs[fut1] Fut1Infl
+IrregVerbs[fut23] Fut23Infl
 Compound
 Interjection
 
@@ -90,6 +98,32 @@ LEXICON IrrNounInfl_g
 
 LEXICON CaseSuffix
 <abl>:थैं
+
+LEXICON PresInfl
+<v><pres><sim><p1><sg>:नू
+<v><pres><sim><p2><sg>:छै
+<v><pres><sim><p2><sg><for>:छा
+<v><pres><sim><p3><sg><m>:छो
+<v><pres><sim><p3><pl>:नान
+
+LEXICON PastInfl
+<v><past><sim><sg>:छ
+<v><past><sim><p3><sg><m>:छ्यो
+<v><past><sim><p3><sg><f>:छी
+<v><past><sim><p3><pl>:छ्या
+
+LEXICON Fut1Infl
+<v><fut><sim><p1><sg>:>{F1}ल    
+<v><fut><sim><p1><pl>:>{F1}ला 
+
+
+LEXICON Fut23Infl
+<v><fut><sim><p2><sg><m>:ले
+<v><fut><sim><p2><sg><f>:ली
+<v><fut><sim><p3><sg><m>:लो
+<v><fut><sim><p3><sg><f>:ली
+<v><fut><sim><p3><pl>:ला
+
 
 
 ###############################################################################
@@ -181,6 +215,7 @@ LEXICON NounRoot
 
 
 गुलामी:गुलामी[noCase,noPlural]   #slavery
+मन:मन  #mind
 कानून:कानून  #law
 नीन:नीन #sleep
 ज्ञान:ज्ञान #knowledge
@@ -283,10 +318,6 @@ LEXICON NounRoot
 
 
 प्रजा:प्रजा #citizens  (already plural form)
-शिष्य:शिष्य #student
-लोग:लोग   #people
-कान:कान  #ear
-लोगो:लोगो  #Dir/LR
 सुसमाचार:सुसमाचार  #good news
 भीड़:भीड़  #crowd
 ढिंढोरा:ढिंढोरा  #a type of rhythmic drumming 
@@ -297,16 +328,21 @@ LEXICON NounRoot
 नान्तिनान:नान्तिनान   #Dir/LR
 
 
-
+शिष्य:शिष्य #student
+लोग:लोग   #people
+बातु:बातु  #fact
+कान:कान  #ear
+लोगो:लोगो  #Dir/LR
+विश्वासी:विश्वासी   #believer
+अविश्वासी:अविश्वासी #non-believer
 
 
 तारा:तारा #star
 
 
 
-दाँत:दाँत  #teeth  -- (multiple plural forms : Reg + Irr)
- 
-शरीर:शरीर  #body
+दाँत:दाँत  #teeth
+ शरीर:शरीर  #body
 अंग:अंग  #organ
 पिटींग:पिटींग    #insect which can fly
 कीड़ा:कीड़ा  #insect
@@ -319,7 +355,6 @@ LEXICON NounRoot
 प्रदेश:प्रदेश #state
 प्रदेशा:प्रदेशा   #Dir/LR (प्रदेश) 
 बात:बात  #conversation/matter/fact
-बातु:बातु  #Dir/LR
 स्वर्गदूत:स्वर्गदूत #angel
 घर:घर #home
 घरा:घरा  #Dir/LR  (घर)
@@ -886,45 +921,86 @@ LEXICON Adverb
 भितर<adv>:भितर  #inside / within 
 अब<adv>:अब   #now
 उनजै<adv>:उनजै  #then
+बार-बार<adv>:बार-बार   #repeatedly
 
 
 
  
 
 LEXICON Verb
+दफना<v>:दफना   #burry
+फिर<v>:फिर   #move
+ठैरा<v><m>:ठैरा   #to stay / stop
+ठैरी<v><f>:ठैरी   #to stay / stop
+विनती<v>:विनती   #request
+फाड़<v>:फाड़   #to tear
+पछ्याणो<v><m>:पछ्याणो   #to recognize
+पछ्याणी<v><f>:पछ्याणी   #to recognize
+राज्य<v>:राज्य   #rule
+नाश<v>:नाश   #destroy
+रौंद<v>:रौंद   #crush / trample
+पलट<v>:पलट   #to turn / flip
+बुना<v>:बुना   #to weave
+कटना<v>:कटना   #to cut
+मानी<v><f>:मानी   #to accept / acknowledge
+माना<v><m>:माना   #to accept / acknowledge
+माफ<v>:माफ   #forgive
+धो<v>:धो   #wash
+हाल<v>:हाल   #put
+जामा<v>:जामा   #collect/ store
+मेल<v>:मेल   #meet
+सौंप<v>:सौंप   #handover
+त्याग<v>:त्याग   #resign/ sacrifice
+जला<v>:जला   #ignite
+ढक<v>:ढक   #cover
+झुक<v>:झुक   #bend/ bow
+परखी<v><f>:परखी   #examined/ tested
+परखा<v><m>:परखा   #examined/ tested
+भाग<v>:भाग   #run
+मरवा<v>:मरवा   #make someone kill
+मालूम<v>:मालूम   #came to know
+डण्यून<v>:डण्यून   #crying
 पैद<v>:पैद  #to be born
 लुक<v>:लुक	 #to hide 
-बसिना<v>:बसिना	 #to settle
-पकड़<v>:पकड़	 #to capture/ arrest
+बसिना<v>:बसिना  #to settle
+पकड़<v>:पकड़  #to capture/ arrest
 बन्द<v>:बन्द	 #to close
-शुरू<v>:शुरू	 #to start
+शुरू<v>:शुरू  #to start
 फैल<v>:फैल	 #to spread
-जीना<v>:जीना	 #to live
-मनाया<v>:मनाया	 #to celebrate
-खिती<v>:खिती	 #to throw
-कुचली<v>:कुचली	 #to crush
+जीना<v>:जीना  #to live
+मनाया<v>:मनाया  #to celebrate
+कुचली<v>:कुचली  #to crush
 उठा<v>:उठा #to pick
-ग्यो<v>:ग्यो #to go
 हुकुम<v>:हुकुम #to order
 साबित<v>:साबित #to prove
 हाण<v>:हाण	  #to jump
 ढोक<v>:ढोक  #to saluted
 मर<v>:मर  #to die
-ज्या<v>:ज्या  #to become
-पैन<v>:पैन  #to wore
 निकल<v>:निकल  #to go out
-बच<v>:बच  #to survive
-डर<v>:डर  #to fear
 टल<v>:टल  #to delay
-पाला<v>:पाला  #to get
 
 
+खिती<v>:खिती #to throw  -- remove
+ग्यो<v>:ग्यो #to go
+ज्या<v>:ज्या  #to become
 कर<v>:कर  #to do
 जा<v>:जा  # to go
 क्योछ<v>:क्योछ  #said
 करून<v>:करून  #do root-करs
 दीछ<v>:दीछ #root-दी
 हो<v>:हो   #to happen
+पैन<v>:पैन  #to wore
+बच<v>:बच  #to survive
+डर<v>:डर  #to fear
+पाला<v>:पाला  #to get
+
+चाँ<v>:चाँ[pres,past,fut1,fut23]  #want/ wish
+चा<v>:चा[pres,past,fut1,fut23]  #Dir/LR
+देख<v>:देख[pres,past,fut1,fut23]  #to see
+सक<v>:सक[pres,past,fut1,fut23]  #to be able
+कहला<v>:कहला[pres,past,fut1,fut23]  #called / known
+कर<v>:कर[pres,past,fut1,fut23]  #to do
+आ<v>:आ[pres,past,fut1,fut23]  #to come
 
 करून<ger>:करून     #gerund of do
 पुछून<ger>:पुछून    #gerund of ask
@@ -936,30 +1012,105 @@ LEXICON Verb
 जाणून<ger>:जाणून     #gerund of जाण (to know)
 मरून<ger>:मरून     #gerund of मरू (to die)
 ठाड़<ger>:ठाड़     #gerund of stand
-कुन<ger>:कुन     #gerund of say  
+कुन<ger>:कुन     #gerund of say 
 कईना<ger>:कईना  #Dir/LR (कुन)
 ऊँन<ger>:ऊँन     #gerund of आ (come)
 सिखून<ger>:सिखून     #gerund of सिख (to learn)
 पकड़ना<ger>:पकड़ना  #gerund of पकड़ (to catch)
 तोड़ना<ger>:तोड़ना  #gerund of तोड़ (to break)
 लेखना<ger>:लेखना   #gerund of लेख (to write)
+दिन<ger>:दिन    #gerung of दी  (to give)
+लीना<ger>:लीना   #gerung of ली  (to take)
+लीन<ger>:लीन    #gerung of ली  (to take)
+देखून<ger>:देखून  #gerung of देख  (to see)
 
 
 
 
-LEXICON IrregularVerbs
-छ<v><p1><sg><pres><sim>:छूँ      #am
-छ<v><p1><sg><past><sim>:छी   #was
-छ<v><p2><sg><pres><sim>:छा    #are
-छ<v><p2><pl><past><sim>:छ्या  #were
-छ<v><p3><sg><pres><sim>:छै      #is
-छ<v><p3><pl><pres><sim>:छन     #are
-छ<v><p3><sg><f><past><sim>:छी   #was
-छ<v><p3><sg><m><past><sim>:छ्यो  #was
-छ<v><p3><pl><past><sim>:छ्या  #were
+LEXICON IrregVerbs
+छ<v><pres><p1><sg>:छूँ      #am
+छ<v><pres><p2><sg><frm>:छै    #is
+छ<v><pres><p2><sg><frm>:छा    #are
+छ<v><pres><p3><pl>:छन     #are
+छ<v><pres><p3><sg><m>:छो   
+छ<v><past><p3><sg><m>:छ्यो  #was
+छ<v><past><p3><sg><f>छी   #was
+छ<v><past><p3><pl>:छ्या  #were
 
-भ्य<v><pres><sim>:भ्यान  #happen/occur	
-भ्य<v><pres><sim>:भ्योछ  #happened/occured in past
+भ्य<v><pres>:भ्यान  #happen/occur	
+भ्य<v><past>:भ्योछ  #happened/occured in past
+
+हो<v><pres>:हु[pres]   #to happen
+हो<v><past>:हु[past]
+हो<v><fut>:हो[fut1,fut23]
+
+जा<v><pres>:जा[pres]   #to go
+जा<v><past>:जा[pres]
+जा<v><fut><p1>:ज्यू[fut1]
+जा<v><fut>:जा[fut23]
+जा<v><imperf><request>:जान
+जा<v><imperf><instruct>:जाया
+जा<v><imperf><desire>:जौ
+जा<v><fut><sim><p3><sg><f>:जालि  #Dir/LR  --same as जाली
+
+कुं<v><pres>:कुं[pres]  #to say
+कुं<v><past>:कुं[past]
+कुं<v><past><sim>:क्योछ
+कुं<v><fut><p1>:क्यो[fut1]
+कुं<v><fut><p2>:कौ[fut23]
+कुं<v><fut><p3>:कौ[fut23]
+कुं<v><sim>:कुँ
+कुं<v><imperf><instruct>:कये
+
+
+दी<v><pres>:दी[pres]  #to give
+दी<v><past>:दी[past]
+दी<v><fut><p1>:दीयू[fut1]
+दी<v><fut>:दे[fut23]
+दी<v><imperf><instruct><sg>:दीया
+दी<v><imperf><instruct><pl>:दीये
+दी<v><pres><sim><p3><sg>:दीनो   #same as दीछो
+दी<v><pres><sim><p3><pl>:दीनी   #same as दीनान
+दी<v><fut><sim><p3><pl>:दीयाला   #same as देला
+
+
+ली<v><pres>:ली[pres]  #to take
+ली<v><past>:ली[past]
+ली<v><fut><p1>:लियू[fut1]
+ली<v><fut>:ले[fut23]
+ली<v><pres><sim><p3><sg>:लियूछो  #same as लीछो	
+
+कर<v><sim>:कर
+कर<v><cont>:करनै
+कर<v><perf>:करि
+कर<v><past><perf>:करछ्य
+कर<v><imperf><desire><p1><sg>:करूँ	
+कर<v><imperf><instruct><p2>:करे  
+कर<v><imperf><instruct><p3>:करा
+कर<v><imperf><instruct><p3>:कर्या  #Dir/LR  --same as करा
+कर<v><pres><sim><p1><sg>:करछूँ  #Dir/LR  --same as करनू
+कर<v><pres><sim><p3><sg>:करूनो  #Dir/LR  --same as करछो
+कर<v><fut><sim><p3><sg><m>:करोलो  #Dir/LR  --same as करलो
+
+कहला<v><sim><f>:कहलाई
+कहला<v><sim><m>:कहलायो
+कहला<v><pres><sim><p3><sg><m>:कहलूछो
+
+सक<v><pres><sim><p2><sg>:सकनै #same as सकछै
+सक<v><pres><sim><p3><sg><m>:सकूनो  #same as सकछो
+सक<v><pres><sim><p3><pl>:सकनानी  #same as सकनान
+सक<v><fut><sim><p3><sg><m>:सकूनो   #same as सकनो
+
+चा<v><sim>:चै
+चा<v><imperf><instruct>:चैंनी
+चा<v><imperf><desire>:चैछो
+चाँ<v><pres><sim><p3><pl>:चाँयान #same as चाँनान
+
+देख<v><imperf><instruct>:देखा
+देख<v><simple>:देखछ्य
+देख<v><fut><sim><p3><sg><m>:देखोलो   #same as देखलो
+
+
 
 LEXICON Compound
 जैस<pron>+में<post>:जैमें    #in which 
@@ -1036,6 +1187,7 @@ LEXICON Compound
 इसो<det>+ई<part>:इसोई  #emphasis on this
 ऊसो<det>+ई<part>:ऊसोई  #emphasis on that
 उ<pron>+ई<part>:उई  #emphasis on he/she/it
+पवित्र<adj>+शास्त्र<n>:पवित्रशास्त्र   #holy script
 	
 
 
