@@ -13,6 +13,7 @@ Alphabet
 %{I1%}:ओ  %{I1%}:ो  
 %{I1%}:ि  %{I1%}:इ 
 %{F1%}:ू  %{F1%}:उ 
+%{P1%}:ी  %{P1%}:ई 
 %>:0;
 
 Sets
@@ -29,6 +30,8 @@ Rules
 %{I2%}:इ <=> ई _ ;
 "If the root lexicon ends with Vowel, add उ to the Fut1 verb forms"
 %{F1%}:उ <=> Vowel _  ;
+"If the root lexicon ends with Vowel, add ई to the Pres<sg><f> verb forms"
+%{P1%}:ई <=> Vowel _  ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
