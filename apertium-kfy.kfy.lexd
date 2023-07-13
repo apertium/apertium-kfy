@@ -95,8 +95,8 @@ LEXICON IrrNounInfl_e
 <n><pl>:>े◌ं
 
 LEXICON IrrNounInfl_f
-<n><sg>:>ी
-<n><pl>:>{I2}याँ
+<n><sg>:>{I2}
+<n><pl>:>{I3}याँ
 
 LEXICON IrrNounInfl_g
 <n><sg>:
@@ -180,6 +180,8 @@ LEXICON NounRoot
 कोशिश:कोशिश[irr_b]   #try
 भूसा:भूस[irr_b]    #chaff
 जूता:जूत[irr_b]     #shoes
+किताब:किताब[irr_b]     #book
+जहाज:जहाज[irr_b]     #ship
  
 
 बच्चा:बच्च[irr_c] # child 
@@ -188,6 +190,7 @@ LEXICON NounRoot
 हिस्सा:हिस्स[irr_c]  #part/ portion
 प्रकार:प्रकार[irr_c] #Dir/LR
 वादा:वाद[irr_c]  #promise
+फैसला:फैसल[irr_c]  #decision
 
 
 शिष्य:शिष्य[irr_d]     #Dir/LR 
@@ -211,8 +214,8 @@ LEXICON NounRoot
 आँधी:आँध[irr_f]   #wind  
 खुशी:खुश[irr_f]  #hapiness
 रोशनी:रोशन[irr_f]  #light
-बड़ाई:बड़ाई[irr_f]  #praise
-बुराई:बुराई[irr_f]  #evil
+बड़ाई:बड़ा[irr_f]  #praise
+बुराई:बुरा[irr_f]  #evil
 गलति:गलत[irr_f]   #mistake
 चोरी:चोर[irr_f]  #steal
 भविष्यवाणी:भविष्यवाण[irr_f]   #forecast
@@ -238,7 +241,7 @@ LEXICON NounRoot
 नान:नान[irr_g]  #child
 
 
-गुलामी:गुलामी   #slavery
+गुलामी:गुलामी   #slavery  #no plural form
 मन:मन   #mind
 कानून:कानून   #law
 नीन:नीन  #sleep
@@ -344,6 +347,10 @@ LEXICON NounRoot
 दोष:दोष  #fault
 बलिदान:बलिदान  #sacrifice
 जेल:जेल  #jail
+सहन:सहन  #tolerance
+उद्धार:उद्धार  #salvation /redemption
+स्वभाव:स्वभाव  #nature
+
 
 
 
@@ -403,6 +410,7 @@ LEXICON NounRoot
 अविश्वासी:अविश्वासी #non-believer
 
 
+राज्यपाल:राज्यपाल  #Governor
 तारा:तारा   #star
 चीज:चीज   #things
 दाँत:दाँत  #teeth
@@ -539,6 +547,7 @@ LEXICON NounRoot
 सासू:सासू #mother-in-law
 
 LEXICON ProperNoun
+इस्राएल<np>:इस्राएल  #Israel
 यीशु<np>:यीशु     #Jesus
 मसीह<np>:मसीह    #Christ
 दाऊदा<np>:दाऊदा   #all are names below this
@@ -631,7 +640,7 @@ LEXICON Case
 है<post><abl>:है
 स<post><abl>:स
 ले<post><abl>:ले
-थैं<post><abl>:थैं    #used with pronouns
+थैं<post><abl>:थैं    #used with pronouns --case inflection
 	
 हे<post><voc>:हे
 
@@ -704,6 +713,7 @@ LEXICON Pronoun
 तुम<prn><pers><p2><sg><nom><frm>:तुम #you
 तैंस<prn><pers><p2><sg><acc>:तैंस #you
 तुमून<prn><pers><p2><sg><acc><frm>:तुमून #you (formal speech)
+तुमून<prn><pers><p2><sg><nom><past><frm>:तुमूनले
 तुमूले<prn><pers><p2><sg><nom><past>:तुमूले   #you
 तेरा<prn><pers><p2><sg><gen><m_o>:तेरा #your 
 त्यारा<prn><pers><p2><sg><gen><pl_o>:त्यारा #your 
@@ -765,9 +775,12 @@ LEXICON Determiner
 ऊसो<det>:ऊसो   #that
 द्वीवैन<det>:द्वीवैन    #both
 दुसरान<det>:दुसरान    #others
+दुसोरो<det>:दुसोरो   #others
 दुसरा<det>:दुसरा  #second / other
 चारू<det>:चारू  #four
 सात<det>:सात   #seven
+कतुक<det>:कतुक   #how many / much
+बारा<det>:बारा  #12
 
 
 LEXICON Postposition
@@ -802,8 +815,10 @@ LEXICON Postposition
 
 LEXICON Conjunction
 और<conjcoo>:और   #and 
+क्याखिन<conjcoo>:क्याखिन  #because
 क्याखिनकि<conjcoo>:क्याखिनकि  #because
 किलैकी<conjcoo>:किलैकी   #because
+किलैंकी<conjcoo>:किलैंकी  #because
 लेकिन<conjcoo>:लेकिन  #but
 पर<conjcoo>:पर #but
 त<conjcoo>:त
@@ -867,6 +882,8 @@ LEXICON Adjective
 दया<adj>:दया  #kind
 दयालु<adj>:दयालु  #one who is kind
 शुद्ध<adj>:शुद्ध  #pure
+ठूल<adj>:ठूल  #big
+ठूला<adj>:ठूला  #big
 ठूलो<adj>:ठूलो  #big
 नमकीन<adj>:नमकीन  #salty
 नूनो<adj>:नूनो #salty
@@ -921,6 +938,9 @@ LEXICON Adjective
 तैयार<adj>:तैयार   #ready
 ज्यूनो<adj>:ज्यूनो   #alive
 खास<adj>:खास    #special
+सही<adj>:सही     #correct / right
+प्रेरित<adj>:प्रेरित   #inspired / motivated
+एक्कै<adj>:एक्कै   #only one
 
 
 LEXICON Adverb
@@ -982,10 +1002,12 @@ LEXICON Adverb
 बीच<adv>:बीच   #in between / amidst
 सिर्फ<adv>:सिर्फ   #only
 दुबारा<adv>:दुबारा  #again / once more
-
+जल्दी<adv>:जल्दी   #quickly
+कैसे<adv>:कैसे   #how
  
 
 LEXICON Verb
+अगुवा<v>:अगुवा #to abduct/kidnap
 ठैरा<v><m>:ठैरा   #to stay / stop
 ठैरी<v><f>:ठैरी   #to stay / stop
 विनती<v>:विनती   #request
@@ -1018,103 +1040,105 @@ LEXICON Verb
 ज्या<v>:ज्या  #to become
 
 
-चाँ<v>:चाँ[pres1,pres23,past,fut1,fut23,cont]  #want/ wish
-चा<v>:चा[pres1,pres23,past,fut1,fut23,cont]  #Dir/LR
-देख<v>:देख[pres1,pres23,past,fut1,fut23,cont,perf]  #to see
-सक<v>:सक[pres1,pres23,past,fut1,fut23]  #to be able
-कहला<v>:कहला[pres1,pres23,past,fut1,fut23]  #called / known
-कर<v>:कर[pres1,pres23,past,fut1,fut23,cont,perf]  #to do
-आ<v>:आ[pres1,pres23,past,fut1,fut23,perf,cont]  #to come
-सुण<v>:सुण[pres1,pres23,past,fut1,fut23,cont,perf]  #to listen
-रै<v>:रै[pres1,pres23,past,fut1,fut23,cont,perf]  #to stay
-द्याल<v>:द्याल[pres1,pres23,past,fut1,fut23,cont,perf]  #to put
-डाल<v>:डाल[pres1,pres23,past,fut1,fut23,cont,perf]  #to put
-जाण<v>:जाण[pres1,pres23,past,fut1,fut23,cont,perf]  #to know
-लिख<v>:लिख[pres1,pres23,past,fut1,fut23,cont,perf]  #to write
-पुछ्<v>:पुछ्[pres1,pres23,past,fut1,fut23,cont,perf]  #Dir/LR
-पुछ<v>:पुछ[pres1,pres23,past,fut1,fut23,cont,perf]  #to ask
-बन<v>बन[pres1,pres23,past,fut1,fut23,cont,perf]  #to ask
-दफना<v>:दफना[pres1,pres23,past,fut1,fut23,cont,perf]   #burry
-फिर<v>:फिर[pres1,pres23,past,fut1,fut23,cont,perf]   #move
-फाड़<v>:फाड़[pres1,pres23,past,fut1,fut23,cont,perf]   #to tear
-रौंद<v>:रौंद[pres1,pres23,past,fut1,fut23,cont,perf]   #crush / trample
-पलट<v>:पलट[pres1,pres23,past,fut1,fut23,cont,perf]   #to turn / flip
-बुन<v>:बुन[pres1,pres23,past,fut1,fut23,cont,perf]   #to weave
-काट<v>:काट[pres1,pres23,past,fut1,fut23,cont,perf]   #to cut
-धो<v>:धो[pres1,pres23,past,fut1,fut23,cont,perf]   #wash
-मेल<v>:मेल[pres1,pres23,past,fut1,fut23,cont,perf]   #meet
-सौंप<v>:सौंप[pres1,pres23,past,fut1,fut23,perf]   #handover
-जला<v>:जला[pres1,pres23,past,fut1,fut23,cont,perf]   #ignite
-ढक<v>:ढक[pres1,pres23,past,fut1,fut23,cont,perf]   #cover
-झुक<v>:झुक[pres1,pres23,past,fut1,fut23,cont,perf]   #bend/ bow
-भाग<v>:भाग[pres1,pres23,past,fut1,fut23,cont,perf]   #run
-मरवा<v>:मरवा[pres1,pres23,past,fut1,fut23,cont,perf]   #make someone kill
-पकड़<v>:पकड़[pres1,pres23,past,fut1,fut23,cont,perf]  #to capture/ arrest
-मना<v>:मना[pres1,pres23,past,fut1,fut23,cont,perf]  #to celebrate
-कुचल<v>:कुचल[pres1,pres23,past,fut1,fut23,cont,perf]  #to crush
-उठा<v>:उठा[pres1,pres23,past,fut1,fut23,cont,perf] #to pick
-हाण<v>:हाण[pres1,pres23,past,fut1,fut23,cont,perf] #to jump
-मर<v>:मर[pres1,pres23,past,fut1,fut23,perf]  #to die
-निकल<v>:निकल[pres1,pres23,past,fut1,fut23,perf]  #to go out
-करा<v>:करा[pres1,pres23,past,fut1,fut23,cont,perf]  #to get something done
-करवा<v>:करवा[pres1,pres23,past,fut1,fut23,cont,perf]  #to get something done
-बना<v>:बना[pres1,pres23,past,fut1,fut23,cont,perf]  #to make
-लीजा<v>:लीजा[pres1,pres23,past,fut1,fut23,cont]  #to carry
-चल<v>:चल[pres1,pres23,past,fut1,fut23,cont]  #to walk
-तोड़<v>:तोड़[pres1,pres23,past,fut1,fut23,cont,perf]  #to break
-डर<v>:डर[pres1,pres23,past,fut1,fut23,cont,perf]  #to fear
-जाग<v>:जाग[pres1,pres23,past,fut1,fut23,cont,perf]  #to wake
-बुला<v>:बुला[pres1,pres23,past,fut1,fut23,cont]  #to call
-भेज<v>:भेज[pres1,pres23,past,fut1,fut23,cont]  #to send
-चढ़<v>:चढ़[pres1,pres23,past,fut1,fut23,cont,perf]  #to climb
-चढ़ा<v>:चढ़ा[pres1,pres23,past,fut1,fut23,cont,perf]  #to donate/ offer
-मिल<v>:मिल[pres1,pres23,past,fut1,fut23,cont,perf]  #to get
-उठ<v>:उठ[pres1,pres23,past,fut1,fut23,cont,perf]  #to wake
-खोज<v>:खोज[pres1,pres23,past,fut1,fut23,cont]  #to search
-पा<v>:पा[pres1,pres23,past,fut1,fut23,cont,perf]  #to receive
-राख<v>:राख[pres1,pres23,past,fut1,fut23,cont,perf]  #to keep
-राँख<v>:राँख[pres1,pres23,past,fut1,fut23,cont,perf]  #Dir/LR
-खोल<v>:खोल[pres1,pres23,past,fut1,fut23,cont,perf]  #to open
-बाद<v>:बाद[pres1,pres23,past,fut1,fut23,cont,perf]  #to tie
-लाग<v>:लाग[pres1,pres23,past,fut1,fut23,cont,perf]  #to start
-लगू<v>:लगू[pres1,pres23,past,fut1,fut23,cont]  #Dir/LR
-लग<v>:लग[pres1,pres23,past,fut1,fut23,cont]  #Dir/LR
-लगा<v>:लगा[pres1,pres23,past,fut1,fut23,cont,perf]  #to apply
-पैन<v>:पैन[pres1,pres23,past,fut1,fut23,cont,perf]  #to wear
-मान<v>:मान[pres1,pres23,past,fut1,fut23,cont,perf]  #to accept / acknowledge
-निकाल्या<v>:निकाल्या[pres1,pres23,past,fut1,fut23,cont]  #to take out / bring out
-निकाल<v>:निकाल[pres1,pres23,past,fut1,fut23,cont,perf] #to take out
-भाग<v>:भाग[pres1,pres23,past,fut1,fut23,cont,perf]  #to run
-ल्या<v>:ल्या[pres1,pres23,past,fut1,fut23,cont,perf]  #to bring
-दिखा<v>:दिखा[pres1,pres23,past,fut1,fut23,cont,perf]  #to show
-छोड़<v>:छोड़[pres1,pres23,past,fut1,fut23,cont,perf]  #to leave
-बैठ<v>:बैठ[pres1,pres23,past,fut1,fut23,cont,perf,perf]  #to sit
-बोल<v>:बोल[pres1,pres23,past,fut1,fut23,cont,perf]  #to speak
-समझा<v>:समझा[pres1,pres23,past,fut1,fut23,cont,perf]  #to make someone understand
-समझ<v>:समझ[pres1,pres23,past,fut1,fut23,cont,perf]  #to understand
-हटा<v>:हटा[pres1,pres23,past,fut1,fut23,cont,perf]  #to remove
-बढ़<v>:बढ़[pres1,pres23,past,fut1,fut23,cont,perf]  #to increase/ move forward
-पकड<v>:पकड[pres1,pres23,past,fut1,fut23,cont,perf]  #to catch/ hold
-सिखा<v>:सिखा[pres1,pres23,past,fut1,fut23,cont,perf]  #to teach
-सिखू<v>:सिखू[pres1,pres23,past,fut1,fut23,cont,perf]  #Dir/LR
-सीख<v>:सीख[pres1,pres23,past,fut1,fut23,cont,perf]  #to learn
-घुम<v>:घुम[pres1,pres23,past,fut1,fut23,cont,perf]  #to wander
-माँग<v>:माँग[pres1,pres23,past,fut1,fut23,cont,perf]  #to ask / demand
-सता<v>:सता[pres1,pres23,past,fut1,fut23,cont,perf]  #to torture / torment
-पड़<v>:पड़[pres1,pres23,past,fut1,fut23,cont,perf]  #to be in a situation
-पि<v>:पि[pres1,pres23,past,fut1,fut23,cont,perf]  #Dir/LR
-पी<v>:पी[pres1,pres23,past,fut1,fut23,cont,perf]  #to drink
-खिला<v>:खिला[pres1,pres23,past,fut1,fut23,cont,perf]  #to feed
-खटखटा<v>:खटखटा[pres1,pres23,past,fut1,fut23,cont,perf]  #to knock
-पछ्याण<v>:पछ्याण[pres1,pres23,past,fut1,fut23,cont,perf]   #to recognize
-टकरा<v>:टकरा[pres1,pres23,past,fut1,fut23,cont,perf]   #to collide
-छूँ<v>:छूँ[pres1,pres23,past,fut1,fut23,cont,perf]  #to touch
-छू<v>:छू[pres1,pres23,past,fut1,fut23,cont,perf]   #Dir/LR
-पिस<v>:पिस[pres1,pres23,past,fut1,fut23,cont,perf]  # to crushed
-मार<v>:मार[pres1,pres23,past,fut1,fut23,cont,perf]  # to beat
-बच<v>:बच[pres1,pres23,past,fut1,fut23,cont,perf]  # to survive/ doge
-खा<v>:खा[pres1,pres23,past,fut1,fut23,cont,perf]  #to eat
-ब्या<v>:ब्या[pres1,pres23,past,fut1,fut23,cont,perf]  #to get married
+चाँ:चाँ[pres1,pres23,past,fut1,fut23,cont]  #want/ wish
+चा:चा[pres1,pres23,past,fut1,fut23,cont]  #Dir/LR
+देख:देख[pres1,pres23,past,fut1,fut23,cont,perf]  #to see
+सक:सक[pres1,pres23,past,fut1,fut23]  #to be able
+कहला:कहला[pres1,pres23,past,fut1,fut23]  #called / known
+कर:कर[pres1,pres23,past,fut1,fut23,cont,perf]  #to do
+आ:आ[pres1,pres23,past,fut1,fut23,perf,cont]  #to come
+सुण:सुण[pres1,pres23,past,fut1,fut23,cont,perf]  #to listen
+रै:रै[pres1,pres23,past,fut1,fut23,cont,perf]  #to stay
+द्याल:द्याल[pres1,pres23,past,fut1,fut23,cont,perf]  #to put
+डाल:डाल[pres1,pres23,past,fut1,fut23,cont,perf]  #to put
+जाण:जाण[pres1,pres23,past,fut1,fut23,cont,perf]  #to know
+लिख:लिख[pres1,pres23,past,fut1,fut23,cont,perf]  #to write
+पुछ्:पुछ्[pres1,pres23,past,fut1,fut23,cont,perf]  #Dir/LR
+पुछ:पुछ[pres1,pres23,past,fut1,fut23,cont,perf]  #to ask
+बन:बन[pres1,pres23,past,fut1,fut23,cont,perf]  #to be
+दफना:दफना[pres1,pres23,past,fut1,fut23,cont,perf]   #burry
+फिर:फिर[pres1,pres23,past,fut1,fut23,cont,perf]   #move
+फाड़:फाड़[pres1,pres23,past,fut1,fut23,cont,perf]   #to tear
+रौंद:रौंद[pres1,pres23,past,fut1,fut23,cont,perf]   #crush / trample
+पलट:पलट[pres1,pres23,past,fut1,fut23,cont,perf]   #to turn / flip
+बुन:बुन[pres1,pres23,past,fut1,fut23,cont,perf]   #to weave
+काट:काट[pres1,pres23,past,fut1,fut23,cont,perf]   #to cut
+धो:धो[pres1,pres23,past,fut1,fut23,cont,perf]   #wash
+मेल:मेल[pres1,pres23,past,fut1,fut23,cont,perf]   #meet
+सौंप:सौंप[pres1,pres23,past,fut1,fut23,perf]   #handover
+जला:जला[pres1,pres23,past,fut1,fut23,cont,perf]   #ignite
+ढक:ढक[pres1,pres23,past,fut1,fut23,cont,perf]   #cover
+झुक:झुक[pres1,pres23,past,fut1,fut23,cont,perf]   #bend/ bow
+भाग:भाग[pres1,pres23,past,fut1,fut23,cont,perf]   #run
+मरवा:मरवा[pres1,pres23,past,fut1,fut23,cont,perf]   #make someone kill
+पकड़:पकड़[pres1,pres23,past,fut1,fut23,cont,perf]  #to capture/ arrest
+मना:मना[pres1,pres23,past,fut1,fut23,cont,perf]  #to celebrate
+कुचल:कुचल[pres1,pres23,past,fut1,fut23,cont,perf]  #to crush
+उठा:उठा[pres1,pres23,past,fut1,fut23,cont,perf] #to pick
+हाण:हाण[pres1,pres23,past,fut1,fut23,cont,perf] #to jump
+मर:मर[pres1,pres23,past,fut1,fut23,perf]  #to die
+निकल:निकल[pres1,pres23,past,fut1,fut23,perf]  #to go out
+करा:करा[pres1,pres23,past,fut1,fut23,cont,perf]  #to get something done
+करवा:करवा[pres1,pres23,past,fut1,fut23,cont,perf]  #to get something done
+बना:बना[pres1,pres23,past,fut1,fut23,cont,perf]  #to make
+लीजा:लीजा[pres1,pres23,past,fut1,fut23,cont]  #to carry
+चल:चल[pres1,pres23,past,fut1,fut23,cont]  #to walk
+तोड़:तोड़[pres1,pres23,past,fut1,fut23,cont,perf]  #to break
+डर:डर[pres1,pres23,past,fut1,fut23,cont,perf]  #to fear
+जाग:जाग[pres1,pres23,past,fut1,fut23,cont,perf]  #to wake
+बुला:बुला[pres1,pres23,past,fut1,fut23,cont]  #to call
+भेज:भेज[pres1,pres23,past,fut1,fut23,cont]  #to send
+चढ़:चढ़[pres1,pres23,past,fut1,fut23,cont,perf]  #to climb
+चढ़ा:चढ़ा[pres1,pres23,past,fut1,fut23,cont,perf]  #to donate/ offer
+मिल:मिल[pres1,pres23,past,fut1,fut23,cont,perf]  #to get
+उठ:उठ[pres1,pres23,past,fut1,fut23,cont,perf]  #to wake
+खोज:खोज[pres1,pres23,past,fut1,fut23,cont]  #to search
+पा:पा[pres1,pres23,past,fut1,fut23,cont,perf]  #to receive
+राख:राख[pres1,pres23,past,fut1,fut23,cont,perf]  #to keep
+राँख:राँख[pres1,pres23,past,fut1,fut23,cont,perf]  #Dir/LR
+खोल:खोल[pres1,pres23,past,fut1,fut23,cont,perf]  #to open
+बाद:बाद[pres1,pres23,past,fut1,fut23,cont,perf]  #to tie
+लाग:लाग[pres1,pres23,past,fut1,fut23,cont,perf]  #to start
+लगू:लगू[pres1,pres23,past,fut1,fut23,cont]  #Dir/LR
+लग:लग[pres1,pres23,past,fut1,fut23,cont]  #Dir/LR
+लगा:लगा[pres1,pres23,past,fut1,fut23,cont,perf]  #to apply
+पैन:पैन[pres1,pres23,past,fut1,fut23,cont,perf]  #to wear
+मान:मान[pres1,pres23,past,fut1,fut23,cont,perf]  #to accept / acknowledge
+निकाल्या:निकाल्या[pres1,pres23,past,fut1,fut23,cont]  #to take out / bring out
+निकाल:निकाल[pres1,pres23,past,fut1,fut23,cont,perf] #to take out
+भाग:भाग[pres1,pres23,past,fut1,fut23,cont,perf]  #to run
+ल्या:ल्या[pres1,pres23,past,fut1,fut23,cont,perf]  #to bring
+दिखा:दिखा[pres1,pres23,past,fut1,fut23,cont,perf]  #to show
+छोड़:छोड़[pres1,pres23,past,fut1,fut23,cont,perf]  #to leave
+बैठ:बैठ[pres1,pres23,past,fut1,fut23,cont,perf,perf]  #to sit
+बोल:बोल[pres1,pres23,past,fut1,fut23,cont,perf]  #to speak
+समझा:समझा[pres1,pres23,past,fut1,fut23,cont,perf]  #to make someone understand
+समझ:समझ[pres1,pres23,past,fut1,fut23,cont,perf]  #to understand
+हटा:हटा[pres1,pres23,past,fut1,fut23,cont,perf]  #to remove
+बढ़:बढ़[pres1,pres23,past,fut1,fut23,cont,perf]  #to increase/ move forward
+पकड:पकड[pres1,pres23,past,fut1,fut23,cont,perf]  #to catch/ hold
+सिखा:सिखा[pres1,pres23,past,fut1,fut23,cont,perf]  #to teach
+सिखू:सिखू[pres1,pres23,past,fut1,fut23,cont,perf]  #Dir/LR
+सीख:सीख[pres1,pres23,past,fut1,fut23,cont,perf]  #to learn
+घुम:घुम[pres1,pres23,past,fut1,fut23,cont,perf]  #to wander
+माँग:माँग[pres1,pres23,past,fut1,fut23,cont,perf]  #to ask / demand
+सता:सता[pres1,pres23,past,fut1,fut23,cont,perf]  #to torture / torment
+पड़:पड़[pres1,pres23,past,fut1,fut23,cont,perf]  #to be in a situation
+पि:पि[pres1,pres23,past,fut1,fut23,cont,perf]  #Dir/LR
+पी:पी[pres1,pres23,past,fut1,fut23,cont,perf]  #to drink
+खिला:खिला[pres1,pres23,past,fut1,fut23,cont,perf]  #to feed
+खटखटा:खटखटा[pres1,pres23,past,fut1,fut23,cont,perf]  #to knock
+पछ्याण:पछ्याण[pres1,pres23,past,fut1,fut23,cont,perf]   #to recognize
+टकरा:टकरा[pres1,pres23,past,fut1,fut23,cont,perf]   #to collide
+छूँ:छूँ[pres1,pres23,past,fut1,fut23,cont,perf]  #to touch
+छू:छू[pres1,pres23,past,fut1,fut23,cont,perf]   #Dir/LR
+पिस:पिस[pres1,pres23,past,fut1,fut23,cont,perf]  # to crushed
+मार:मार[pres1,pres23,past,fut1,fut23,cont,perf]  # to beat
+बच:बच[pres1,pres23,past,fut1,fut23,cont,perf]  # to survive/ doge
+खा:खा[pres1,pres23,past,fut1,fut23,cont,perf]  #to eat
+ब्या:ब्या[pres1,pres23,past,fut1,fut23,cont,perf]  #to get married
+बता:बता[pres1,pres23,past,fut1,fut23,cont,perf]  #to tell
+चुन:चुन[pres1,pres23,past,fut1,fut23]  #to seelct / choose
 
 
 
@@ -1189,44 +1213,45 @@ LEXICON IrregVerbs
 मरेछ<v><past><cont><p3><sg><m>:मरेछ्यो
 मरेछ<v><past><cont><p3><pl>:मरेछ्या
 
-हो<v>:हु[pres1,pres23,past,cont]   #to happen
-हो<v><fut>:हो[fut1,fut23]
+हो:हु[pres1,pres23,past,cont]   #to happen
+हो:हो[fut1,fut23]
 हो<v><fut><sim><p3><sg><f>:होलि
 हो<v><fut><perf><p3><sg><f>:होगै
 
 
-जा<v>:जा[pres1,pres23,past,fut23,cont]   #to go
-जा<v><fut><p1>:ज्यू[fut1]
+जा:जा[pres1,pres23,past,fut23,cont]   #to go
+जा:ज्यू[fut1]
 जा<v><imperf><request>:जान
 जा<v><imperf><instruct>:जाया
+जा<v><imperf><instruct>:जाना   #same as जाया
 ज्या<v><imperf><instruct>:ज्या  #Dir/LR
 जा<v><imperf><desire>:जौ
 जा<v><fut><sim><p3><sg><f>:जालि  #Dir/LR  --same as जाली
 
-न्हैजा<v>:न्हैजा[pres1,pres23,past,fut23,cont]   #to go
-न्हैजा<v><fut><p1>:न्हैज्यू[fut1]
-न्हैजा<v>:न्है[perf]
+न्हैजा:न्हैजा[pres1,pres23,past,fut23,cont]   #to go
+न्हैजा:न्हैज्यू[fut1]
+न्हैजा:न्है[perf]
 
-निन्हैजा<v>:निन्हैजा[pres1,pres23,past,fut23,cont]   #to take away
-निन्हैजा<v><fut><p1>:निन्हैज्यू[fut1]
-निन्हैजा<v>:निन्है[perf]
+निन्हैजा:निन्हैजा[pres1,pres23,past,fut23,cont]   #to take away
+निन्हैजा:निन्हैज्यू[fut1]
+निन्हैजा:निन्है[perf]
 
-कुं<v>:कुं[pres1,pres23,past,cont]  #to say
-कुं<v><fut><p1>:क्यो[fut1]
-कुं<v><fut>:कौ[fut23]
+कुं:कुं[pres1,pres23,past,cont]  #to say
+कुं:क्यो[fut1]
+कुं:कौ[fut23]
 कुं<v><past><sim>:क्योछ
 कुं<v><imperf><instruct>:कये
 
-कुँ<v>:कुँ[pres1,pres23,past,cont]  #Dir/LR
+कुँ:कुँ[pres1,pres23,past,cont]  #Dir/LR
 कुँ<v><sim>:कुँ            #Dir/LR
 
-कु<v>:कु[pres1,pres23,past,cont]  #Dir/LR
+कु:कु[pres1,pres23,past,cont]  #Dir/LR
 कु<v><sim>:कु     #Dir/LR
 कु<v><pres><sim><p1><sg>:कुछूँ
 
-दी<v>:दी[pres1,pres23,past,cont]  #to give
-दी<v><fut><p1>:दीयू[fut1]
-दी<v><fut>:दे[fut23]
+दी:दी[pres1,pres23,past,cont]  #to give
+दी:दीयू[fut1]
+दी:दे[fut23]
 दी<v><imperf><instruct><sg>:दीया
 दी<v><imperf><instruct><pl>:दीये
 दी<v><pres><sim><p3><sg>:दीनो   #same as दीछो
@@ -1235,12 +1260,12 @@ LEXICON IrregVerbs
 दी<v><fut><sim><p3><pl>:दीयाला   #same as देला
 
 
-ली<v>:ली[pres1,pres23,past,cont,perf]  #to take
-ली<v><fut><p1>:लियू[fut1]
-ली<v><fut>:ले[fut23]
+ली:ली[pres1,pres23,past,cont,perf]  #to take
+ली:लियू[fut1]
+ली:ले[fut23]
 ली<v><pres><sim><p3><sg>:लियूछो  #same as लीछो	
 
-लि<v><pres>:लि[pres1,pres23,past,cont,perf]  #Dir/LR
+लि:लि[pres1,pres23,past,cont,perf]  #Dir/LR
 
 कर<v><sim>:कर
 कर<v><cont>:करनै
@@ -1249,6 +1274,7 @@ LEXICON IrregVerbs
 कर<v><past><perf>:करछ्य
 कर<v><imperf><desire><p1><sg>:करूँ	
 कर<v><imperf><instruct><p2>:करे  
+कर<v><imperf><instruct><p3><pl>:करो
 कर<v><imperf><instruct><p3><pl>:करा
 कर<v><imperf><instruct><p3><sg>:कर्यो
 कर<v><imperf><instruct><p3>:करना #Dir/LR  --same as करा
@@ -1261,14 +1287,17 @@ LEXICON IrregVerbs
 कहला<v><sim><m>:कहलायो
 कहला<v><pres><sim><p3><sg><m>:कहलूछो
 
+सका<v><sim>:सकना
+सका<v><imperf><instruct>:सका
 सक<v><pres><sim><p2><sg>:सकनै #same as सकछै
-सक<v><pres><sim><p3><sg><m>:सकूनो  #same as सकछो
+सक<v><pres><sim><p3><sg><m>:सकनो  #same as सकछो
 सक<v><pres><sim><p3><pl>:सकनानी  #same as सकनान
 सक<v><fut><sim><p3><sg><m>:सकूनो   #same as सकनो
 
 चा<v><sim>:चै
 चा<v><imperf><instruct>:चैंनी
 चा<v><imperf><desire>:चैछो
+चाँ<v><pres><sim><p1><ag>:चाछूँ  #Dir/LR  --same as चानू
 चाँ<v><pres><sim><p3><pl>:चाँयान  #Dir/LR  --same as चाँनान
 
 देख<v><simple>:देखछ्य
@@ -1287,22 +1316,22 @@ LEXICON IrregVerbs
 सुण<v><past><sim><p2><sg>:सुणिछ्य   #Dir/LR  --same as सुणछ्य
 सुण<v><pres><sim><p3><sg><f>:सुणि    #Dir/LR  --same as सुणी
 
-उन<v>:उन[pres1,pres23,past]  #Dir/LR 
-ऊँन<v>:ऊँन[pres1,pres23,past]  #Dir/LR 
+उन:उन[pres1,pres23,past]  #Dir/LR 
+ऊँन:ऊँन[pres1,pres23,past]  #Dir/LR 
 
-रू<v>:रू[pres1,pres23,past,cont]
-रू<v><fut>:रौ[fut1,fut23]
+रू:रू[pres1,pres23,past,cont]
+रू:रौ[fut1,fut23]
 
 रै<v><pres><p3><sg><f>:रैछ
 
-गै<v><perf>:गै[pres1,pres23,past]  #has had
+गै:गै[pres1,pres23,past]  #has had
 ग्य<v><pres><perf><p3><sg>:ग्यो
 ग्य<v><pres><perf><p3><pl>:ग्या
 ग्य<v><past><perf><p3><sg>:ग्योछ
 ग्य<v><past><perf><p3><pl>:ग्यान   
 
-ला<v>:ला[perf] 
-न्है<v><perf>:न्है[perf]
+ला:ला[perf] 
+न्है:न्है[perf]
 
 द्याल<v><pres><sim><p3><sg><m>:द्यालो
 द्याल<v><pres><sim><p3><sg><m>:द्यालाई
@@ -1312,6 +1341,7 @@ LEXICON IrregVerbs
 
 डाल<v><imperf><instruct>:डालीया
 
+जाण<v><imperf><instruct>:जाणना
 जाण<v><pres><sim><p3><sg><f>:जाणै
 जाण<v><pres><sim><p1><sg>:जाणछूँ   #Dir/LR -- same as जाणनू
 
@@ -1341,8 +1371,8 @@ LEXICON IrregVerbs
 
 खोल<v><pres><sim><p3><sg><f>:खोलि   #Dir/LR
 
-खा<v>:खा[pres1,pres23,past,fut23,cont]
-खा<v><fut><p1>:खूँ[fut1]
+खा:खा[pres1,pres23,past,fut23,cont]
+खा:खूँ[fut1]
 खा<v><imperf><instruct>:खायो
 
 लाग<v><pres><sim><p3><pl>:लाग्यान
@@ -1361,6 +1391,7 @@ LEXICON Compound
 जैस<pron>+में<post>:जैमें    #in which 
 उई<pron>+तरह<n>:उसीकैं   #in the same way
 जैस<pron>+तरह<n>:जसीकैं    #as the way
+जैस<pron>+तरह<n>:जसकैं   #as the way / as soon as
 हो<v>+जा<v>:हैज्यो  #happen
 त्यारा<pron>+खिन<post>:तैखिन  #for you
 त्याग<v>+पत्र<n>:त्यागपत्र   #resignation letter
@@ -1383,6 +1414,7 @@ LEXICON Compound
 आज<adv>+का<post><gen>:आजो    #today's
 उ<pron>+में<post>:उमें  #in him/ her/ them
 तैं<pron>+थैं<post><abl>:तैथैं    #from you
+मैं<pron>+थैं<post><abl>:मैंथैं	#Dir/LR
 मैं<pron>+थैं<post><abl>:मैथैं	#from me
 नाम<n>+ले<post><able>:नामेंले	#by name
 आ<v>+वालो<post><pl>:उनवालो    #someone who is comming
@@ -1397,34 +1429,6 @@ LEXICON Compound
 कै<pron>+थैं<post><abl>:कैंथैं  #from someone
 कै<pron>+की<post><gen>:कैकी  #someone's
 कै<pron>+में<post>:कैमें  #in someone
-दी<v>+भेरन<conjcoo>:दीभेरन  #after giving
-जा<v>+भेरन<conjcoo>:जाभेरन  #after going
-बना<v>+भेरन<conjcoo>:बनाभेरन  #after making
-ली<v>+भेरन<conjcoo>:लीभेरन  #after taking
-देख<v>+भेरन<conjcoo>:देखिभेरन  #after seeing
-आ<v>+भेरन<conjcoo>:आभेरन  #after comming
-सुण<v>+भेरन<conjcoo>:सुणभरेन  #after listening
-सुण<v>+भेरन<conjcoo>:सुणिभेरन  #after listening  --same as सुणभरेन
-बन<v>+भेरन<conjcoo>:बनभेरन  #after being
-बुला<v>+भेरन<conjcoo>:बुलाभेरन  #after calling
-भेज<v>+भेरन<conjcoo>:भेजिभेरन  #after sending
-खोल<v>+भेरन<conjcoo>:खोलभेरन  #after opening
-उठ<v>+भेरन<conjcoo>:उठाभेरन  #after standing / waking
-पा<v>+भेरन<conjcoo>:पाभेरन  #after getting
-निकाल<v>+भेरन<conjcoo>:निकालभेरन  #after taking out
-मान<v>+भेरन<conjcoo>:मानभेरन  #after knowning / understanding
-काट<v>+भेरन<conjcoo>:काटिभेरन  #after cutting
-डाल<v>+भेरन<conjcoo>:डालभेरन  #after putting in
-दिखा<v>+भेरन<conjcoo>:दिखाभेरन  #after showing
-झुक<v>+भेरन<conjcoo>:झुकभेरन  #after bending / bowing
-छोड़<v>+भेरन<conjcoo>:छोड़भेरन  #after leaving
-छोड़ि<v>+भेरन<conjcoo>:छोड़िभेरन  #after leaving --same as छोड़भेरन 
-बोल<v>+भेरन<conjcoo>:बोलभेरन  #after speaking
-खित<v>+भेरन<conjcoo>:खितीभेरन  #after throwing / falling
-जला<v>+भेरन<conjcoo>:जलाभेरन  #after burning
-बढ़<v>+भेरन<conjcoo>:बढ़भेरन  #after increasing
-बढ़ा<v>+भेरन<conjcoo>:बढ़ाभेरन  #after making something increase
-लगा<v>+भेरन<conjcoo>:लगाभेरन  #after applying/ putting something
 याँ<adv>+ई<part>:याँई  #emphasis on here
 वाँ<adv>+ई<part>:वाँई  #emphasis on there
 कर<v>+भेरन<conjcoo>:करभेरन  #after doing
@@ -1437,6 +1441,37 @@ LEXICON Compound
 ऊसो<det>+ई<part>:ऊसोई  #emphasis on that
 उ<pron>+ई<part>:उई  #emphasis on he/she/it
 पवित्र<adj>+शास्त्र<n>:पवित्रशास्त्र   #holy script
+महा<adj>+याजक<n>:महायाजक  #priest at highest position
+दी<v>+भेरन<conjsub>:दीभेरन  #after giving
+जा<v>+भेरन<conjsub>:जाभेरन  #after going
+बना<v>+भेरन<conjsub>:बनाभेरन  #after making
+ली<v>+भेरन<conjsub>:लीभेरन  #after taking
+देख<v>+भेरन<conjsub>:देखिभेरन  #after seeing
+आ<v>+भेरन<conjsub>:आभेरन  #after comming
+सुण<v>+भेरन<conjsub>:सुणभरेन  #after listening
+सुण<v>+भेरन<conjsub>:सुणिभेरन  #after listening  --same as सुणभरेन
+बन<v>+भेरन<conjsub>:बनभेरन  #after being
+बुला<v>+भेरन<conjsub>:बुलाभेरन  #after calling
+भेज<v>+भेरन<conjsub>:भेजिभेरन  #after sending
+खोल<v>+भेरन<conjsub>:खोलभेरन  #after opening
+उठ<v>+भेरन<conjsub>:उठाभेरन  #after standing / waking
+पा<v>+भेरन<conjsub>:पाभेरन  #after getting
+निकाल<v>+भेरन<conjsub>:निकालभेरन  #after taking out
+मान<v>+भेरन<conjsub>:मानभेरन  #after knowning / understanding
+काट<v>+भेरन<conjsub>:काटिभेरन  #after cutting
+डाल<v>+भेरन<conjsub>:डालभेरन  #after putting in
+दिखा<v>+भेरन<conjsub>:दिखाभेरन  #after showing
+झुक<v>+भेरन<conjsub>:झुकभेरन  #after bending / bowing
+छोड़<v>+भेरन<conjsub>:छोड़भेरन  #after leaving
+छोड़ि<v>+भेरन<conjsub>:छोड़िभेरन  #after leaving --same as छोड़भेरन 
+बोल<v>+भेरन<conjsub>:बोलभेरन  #after speaking
+खित<v>+भेरन<conjsub>:खितीभेरन  #after throwing / falling
+जला<v>+भेरन<conjsub>:जलाभेरन  #after burning
+बढ़<v>+भेरन<conjsub>:बढ़भेरन  #after increasing
+कु<v>+भेरन<conjsub>:कैभेरन  #after saying
+बढ़ा<v>+भेरन<conjsub>:बढ़ाभेरन  #after making something increase
+लगा<v>+भेरन<conjsub>:लगाभेरन  #after applying/ putting something
+हो<v>+भेरन<conjsub>:होभेरन  #after happening
 	
 
 
@@ -1446,6 +1481,7 @@ LEXICON Interjection
 बक-बक<ij>:बक-बक   #blah blah
 आमीन<ij>:आमीन    #amen
 गिड़-गिड़ा<ij>:गिड़-गिड़ा    #sound of an action
+धन्यवाद<ij>:धन्यवाद   #thanks
 
 
 

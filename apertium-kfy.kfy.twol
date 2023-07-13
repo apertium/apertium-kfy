@@ -9,11 +9,12 @@ Alphabet
 श ष स ह 
 क्ष त्र ज्ञ
 ा ि ी ु ू ृ े ै ो ौ ॅ ॉ ◌ं ् 
-%{R%}:ू  %{R%}:0  
-%{I1%}:ओ  %{I1%}:ो  
-%{I1%}:ि  %{I1%}:इ 
+%{R%}:ू  %{R%}:0
+%{I1%}:ओ  %{I1%}:ो
+%{I2%}:ी  %{I2%}:ई
+%{I3%}:ि  %{I3%}:इ 
 %{F1%}:ू  %{F1%}:उ 
-%{P1%}:ी  %{P1%}:ई 
+%{P1%}:ी  %{P1%}:ई
 %>:0;
 
 Sets
@@ -25,13 +26,15 @@ Rules
 "If the root lexicon ends with vowel, do not add vowel in the regular plural forms"
 %{R%}:0 <=> Vowel ( %>: ) _ ;
 "If the root lexicon ends with vowel, add ओ  in the irregular plural forms"
-%{I1%}:ओ  <=> Vowel _ ;
-"If the root lexicon ends with ई, replace it with इ  in the irregular plural forms"
-%{I2%}:इ <=> ई _ ;
+%{I1%}:ओ  <=> Vowel ( %>: )  _ ;
+"If the root lexicon ends with Vowel, add ई for singular forms"
+%{I2%}:ई <=> Vowel ( %>: )  _ ;
+"If the root lexicon ends with vowel, add इ for plural forms"
+%{I3%}:इ <=> Vowel ( %>: )  _ ;
 "If the root lexicon ends with Vowel, add उ to the Fut1 verb forms"
-%{F1%}:उ <=> Vowel _  ;
+%{F1%}:उ <=> Vowel ( %>: )  _  ;
 "If the root lexicon ends with Vowel, add ई to the Pres<sg><f> verb forms"
-%{P1%}:ई <=> Vowel _  ;
+%{P1%}:ई <=> Vowel ( %>: ) _  ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
