@@ -243,6 +243,7 @@ LEXICON NounRoot
 
 
 गुलामी:गुलामी   #slavery  #no plural form
+हिम्मत:हिम्मत  #Courage, bravery
 आशीष:आशीष   #blessing
 आशा:आशा  #Dir/ LR
 आश:आश #hope / expectation
@@ -555,6 +556,7 @@ LEXICON NounRoot
 भाई<n><pl>:भाईयो  #Dir/LR
 च्याला:च्याला  #son
 च्योलो:च्योलो    #son
+चेलि:चेलि   #daughter
 ईजा:ईजा    #mom
 स्यैनि:स्यैनि    #woman
 बुबू:बुबू     #grandfather
@@ -911,9 +913,10 @@ LEXICON Adjective
 दया<adj>:दया  #kind
 दयालु<adj>:दयालु  #one who is kind
 शुद्ध<adj>:शुद्ध  #pure
-ठूल<adj>:ठूल  #big
+ठूल<adj><m>:ठूल  #big
 ठूला<adj>:ठूला  #big
 ठूलो<adj>:ठूलो  #big
+ठूली<adj><f>:ठूली   #big
 नमकीन<adj>:नमकीन  #salty
 नूनो<adj>:नूनो #salty
 ऊँचा<adj>:ऊँचा  #high
@@ -974,6 +977,7 @@ LEXICON Adjective
 समान<adj>:समान  #equivalent
 जोर<adj>:जोर #loudly / with strength
 सबै<adj>:सबै    #all / everything
+अधीन<adj>:अधीन   #under control, dependent
 
 
 LEXICON Adverb
@@ -1233,6 +1237,7 @@ LEXICON Verb
 खत<ger>:खतना
 कर<ger>:कर्यान
 दीईना<ger>:दीईना   #gerund of to give
+मान<ger>:मानून   #gerund of believe
 
 
 LEXICON IrregVerbs
@@ -1328,7 +1333,8 @@ LEXICON IrregVerbs
 कहला<v><sim><m>:कहलायो
 कहला<v><pres><sim><p3><sg><m>:कहलूछो
 
-सका<v><sim>:सकना
+सका<v><sim><pl>:सकना
+सका<v><sim><sg>:सको
 सका<v><imperf><instruct>:सका
 सक<v><pres><sim><p2><sg>:सकनै #same as सकछै
 सक<v><pres><sim><p3><sg><m>:सकनो  #same as सकछो
@@ -1462,6 +1468,7 @@ LEXICON Compound
 नाम<n>+ले<post><able>:नामेंले	#by name
 आ<v>+वालो<post><pl>:उनवालो    #someone who is comming
 कर<v>+वाला<post><pl><m>:करूनवाला  #someone who does an action
+दी<v>+वालान<post><pl>:दिनवालान   #someone who gives something
 रख<v>+वालान<post><pl>:राखूनवालान  #someone who keeps something
 ली<v>+वाला<post><sg><m>:लिनवाला  #someone who takes something
 घर<n>+वालो<post><pl>:घरवालो #family members -- more generally husband
@@ -1516,6 +1523,7 @@ LEXICON Compound
 बढ़ा<v>+भेरन<conjsub>:बढ़ाभेरन  #after making something increase
 लगा<v>+भेरन<conjsub>:लगाभेरन  #after applying/ putting something
 हो<v>+भेरन<conjsub>:होभेरन  #after happening
+देख<v>+भेरन<conjsub>:देखभेरन   #after seeing
 मसीह<n>+क<post><gen>:मसीहक
 नाम<n>+क<post><gen><sg_o><m_o>:नामोको
 यीशु<n>+का<post><gen>:यीशुका
