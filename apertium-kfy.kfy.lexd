@@ -222,6 +222,7 @@ LEXICON NounRoot
 तैयारी:तैयार[irr_f]  #prepration
 बिनती:बिनत[irr_f]  #request
 चिठ्ठी:चिठ्ठ[irr_f]  #letter
+कहानी:कहान[irr_f]  #story
 
 
 सूप्पो:सूप्पो[irr_g]    #a type of instrument
@@ -242,7 +243,9 @@ LEXICON NounRoot
 
 
 गुलामी:गुलामी   #slavery  #no plural form
-आशा:आशा  #hope / expectation
+आशीष:आशीष   #blessing
+आशा:आशा  #Dir/ LR
+आश:आश #hope / expectation
 गवाही:गवाही  #testimony
 गलत:गलत  #wrong
 मन:मन   #mind
@@ -563,6 +566,7 @@ LEXICON NounRoot
 सासू:सासू #mother-in-law
 
 LEXICON ProperNoun
+पिलातुस:पिलातुस
 इस्राएल<np>:इस्राएल  #Israel
 यीशु<np>:यीशु     #Jesus
 मसीह<np>:मसीह    #Christ
@@ -703,6 +707,8 @@ LEXICON Pronoun
 इनून<prn><dem><pl>इनून  #these people
 येस<prn><dem><sg>:येस   #him/ her
 येले<prn><dem><sg>:येले  #he / she
+येको<prn><dem><sg><m>:येको
+येकी<prn><dem><sg><f>:येकी
 
 कै<prn><indef>:कै  #someone
 सबून<prn><indef>:सबून  #everyone
@@ -802,6 +808,7 @@ LEXICON Determiner
 कतुक<det>:कतुक   #how many / much
 बारा<det>:बारा  #12
 पाँच<det>:पाँच   #5
+हजार<det>:हजार   #1000
 
 
 LEXICON Postposition
@@ -887,6 +894,7 @@ LEXICON Adjective
 पुरो<adj>:पुरो  #complete/ finish
 पुरी<adj>:पुरी  #complete/ finish
 निको<adj>:निको  #good
+निका<adj>:निका  #good
 लाकारी<adj>:लाकारी  #capable
 निकीकैं<adj>:निकीकैं  #good
 ऊच्चा<adj>:ऊच्चा  #high
@@ -1250,6 +1258,7 @@ LEXICON IrregVerbs
 हो<v><fut><sim><p3><sg><f>:होलि
 हो<v><fut><perf><p3><sg><f>:होगै
 
+र्योछ<v>:र्योछ
 
 जा:जा[pres1,pres23,past,fut23,cont]   #to go
 जा:ज्यू[fut1]
@@ -1512,6 +1521,7 @@ LEXICON Compound
 यीशु<n>+का<post><gen>:यीशुका
 यीशु<n>+स<post><abl>:यीशुस
 जिनून<pron>+ले<post><abl>:जिनूनले
+हो<v>+र्योछ<v>:होर्योछ
 	
 
 
