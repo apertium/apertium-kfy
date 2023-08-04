@@ -247,6 +247,7 @@ LEXICON NounRoot[irr_c]
 ग्वाला:ग्वाल   #herdsman
 हमला:हमल  #attack
 गड्डा:गड्ड  #dent/ pit
+लड़का:लड़क  #boy
 
 
 LEXICON NounRoot[irr_d]
@@ -320,6 +321,7 @@ LEXICON NounRoot[irr_i]
 
 
 LEXICON NounRoot[reg]
+गाड़ा:गाड़ा   
 रिवाज:रिवाज  #tradition / ritual
 विध्वा:विध्वा  #widow
 विचार:विचार  #thought
@@ -609,9 +611,30 @@ LEXICON NounRoot[reg]
 समुन्द्र:समुन्द्र   #sea/ ocean
 बीज:बीज   #seed
 सुंअर:सुंअर   #pig
+भजन:भजन   #devotional song
+बहस:बहस  #debate
+दंगा:दंगा   #riot
+झगाड़ा:झगाड़ा   #argument / fight
+अनाज:अनाज  #grain
+
+
 
 
 LEXICON NounRoot
+हुकमो:हुकमो  #Dir/ LR
+हिसाब:हिसाब  #calcualtion/ account
+श्राप:श्राप  #curse
+शिकार:शिकार  #prey/ hunt
+वारिस:वारिस  #heir
+लालच:लालच  #greed
+कमी:कमी   #shortage/ lack
+आराम:आराम   #rest/ comfort
+आरामा:आरामा  #Dir/ LR
+कोड़ा:कोड़ा  #lash
+जिमेदारी:जिमेदारी   #responsibility
+झुंड:झुंड   #heard
+फैद:फैद  #benifit
+भूचाल:भूचाल  #earthquake / disaster
 नियाति:नियाति   #destiny
 वरदान:वरदान  #bleassing/ boon
 मौक:मौक  #opportunity
@@ -791,6 +814,7 @@ LEXICON NounRoot
 गर्व:गर्व  #pride/ dignity
 क्रोध:क्रोध  #anger
 नतीजा:नतीजा  #result/ outcome/ consequence
+घरो<n><pl>:घरो  #Dir/ LR
 संसार<n><sg>:संसारे  #Dir/ LR
 जानवर<n><pl>:जानवरै #Dir/ LR
 भाई<n><pl>:भाईयों
@@ -807,8 +831,12 @@ LEXICON NounRoot
 
 LEXICON ProperNoun
 दमिश्क<np>:दमिश्क
+आदम<np>:आदम
+स्तिफनुस<np>:स्तिफनुस
+सिलास<np>:सिलास
 पिलातुस<np>:पिलातुस
 इफिसुस<np>:इफिसुस
+सामरी<np>:सामरी
 लेवी<np>:लेवी
 इस्राएल<np>:इस्राएल  #Israel
 यीशु<np>:यीशु     #Jesus
@@ -1355,6 +1383,9 @@ LEXICON Adjective
 संसारिक<adj>:संसारिक   #worldly
 परदेशी<adj>:परदेशी  #foreigner
 ईमानदार<adj>:ईमानदार   #honest
+घमंडी<adj>:घमंडी  #arrogant
+अन्धो<adj>:अन्धो   #blind
+शक्तिशाली<adj>:शक्तिशाली  #powerful
 
 
 LEXICON Adverb
@@ -1509,7 +1540,7 @@ LEXICON Verb[pres1,pres23,past,fut1,fut23,cont,perf,comp]
 घुम:घुम  #to wander
 माँग:माँग  #to ask / demand
 सता:सता  #to torture / torment
-पड़:पड़  #to be in a situation
+पड़:पड़  #to be in a situation / to get involved
 पि:पि  #Dir/LR 
 पी:पी  #to drink
 खिला:खिला  #to feed
@@ -1600,11 +1631,10 @@ LEXICON Verb
 खित<v>:खित  #Dir/ LR
 ज्या<v>:ज्या  #to become
 चमक<v>:चमक  #to shine
-पड़<v>:पड़   #to get involved
 पड़ो<v>:पड़ो   #Dir/LR
 लुका<v>:लुका   #hide
 सह<v>:सह   #tolerate
-
+भटक<v>:भटक  #wander
 महसूस<v>:महसूस  #feel/ sense
 
 
@@ -1644,6 +1674,7 @@ LEXICON Verb
 लाग<ger>:लागून    #gerund of to start
 माँग<ger>:माँगून    #gerund of ask/ demand
 बैठ<ger>:बैठून    #gerund of to sit
+ल्या<ger>:ल्यून   #gerund of bring
 
 
 मार<ger>:मारन      #gerund of kill
@@ -1839,6 +1870,9 @@ LEXICON IrregVerbs
 पा<v><pres>:पायो   
 पा<v><imperf><instruct>:पाया
 
+जी<v><imperf><instruct>:जीया
+जी<v><imperf><instruct>:जीयाँ   #Dir/ LR
+
 सोच<v><pres>:सोचा
 
 बतू<v><pres><sim>:बतूछो
@@ -1895,6 +1929,7 @@ LEXICON IrregVerbs
 देख<v><fut><sim><p3><sg><m>:देखोलो   #Dir/LR ---same as देखलो
 देख<v><pres><sim><p3><sg><m>:देख्यो  #Dir/LR
 देख<v><pres><sim><p3><sg><f>:देखीई  #Dir/LR
+देख<v><pres><sim><p3><pl>:देख्यान  #Dir/ LR
 देख<v><fut><sim><p3><pl>:देखाला  #Dir/LR
 देख<v><pres><sim><p1><sg>:देखून  #Dir/LR
 
@@ -1925,6 +1960,7 @@ LEXICON IrregVerbs
 रू<v><pres><sim><p1><sim>:रूछूँ
 रू<v><pres><sim><p1><sim>:रयूँ   #habitual?
 रू<v><fut><sim><p1><sg>:रूलो
+रू<v><fut><sim><p1><sg>:रोलो  #Dir/LR
 रू<v><fut><sim><p3><sg>:रूनो
 
 रै<v><pres><p3><sg><f>:रैछ
@@ -1950,9 +1986,12 @@ LEXICON IrregVerbs
 डाल<v><imperf><instruct>:डालीया
 
 जाण<v><imperf><instruct>:जाणना
+जाण<v><pres><sim>:जाणनो
 जाण<v><pres><sim><p3><sg><f>:जाणि
 जाण<v><pres><sim><p3><sg><f>:जाणै
 जाण<v><pres><sim><p1><sg>:जाणछूँ   #Dir/LR -- same as जाणनू
+
+लिख<v><pres><sim><p1><sg>:लिखछूँ  #Dir/LR
 
 सुन<v><imperf><instruct>:सुनो
 बन<v><imperf><instruct>:बना
@@ -1999,7 +2038,8 @@ LEXICON IrregVerbs
 
 खा:खा[pres1,pres23,past,fut23,cont,comp]
 खा:खूँ[fut1]
-खा<v><imperf><instruct>:खायो
+खा<v><imperf><instruct><sg>:खायो
+खा<v><imperf><instruct><pl>:खाया
 
 लाग<v><pres><sim><p3><pl>:लाग्यान
 लाग<v><pres><sim><p3><pl>:लागीनाका
@@ -2007,6 +2047,8 @@ LEXICON IrregVerbs
 लाग<v><imperf><instruct>:लगायो
 
 चढ़<v><pres><sim><p3><sg><m>:चढ़ौ
+
+पड़<v><fut><sim><p3><sg><m>:पड़ोलो
 
 पि<v><fut><sim><p1><pl>:पियूला
 
@@ -2033,7 +2075,7 @@ LEXICON Compound
 धरती+का<post><gen><sg_o><m_o>:धरतीका
 मरिना<ger>+का<post><gen><sg_o><m_o>:मरिनाका
 करिना<ger>+को<post><gen><sg_o><m_o>:करिनाको
-पड़ीना+को<post><gen><sg_o><m_o>:पड़ीनाको
+पड़ीना<ger>+को<post><gen><sg_o><m_o>:पड़ीनाको
 यीशु<n>+क<post><gen><sg_o>:यीशुक
 यीशु<n>+का<post><gen><sg_o><m_o>:यीशुका
 कै<pron>+की<post><gen><sg_o><f_o>:कैकी  #someone's
@@ -2055,6 +2097,7 @@ LEXICON Compound
 तै<pron>+ले<adv>:तैले  #Dir/LR  --you 
 जे<pron>+ले<adv>:जैले
 
+sपुरखान<n><pl>+ले<post><able>:पुरखानले
 परमेश्वरै<n>+ले<post><able>:परमेश्वरेले
 परमेश्वर<n>+ले<post><able>:परमेश्वरले
 नाम<n>+ले<post><able>:नामेंले	#by name
