@@ -285,6 +285,7 @@ LEXICON NounRoot[irr_f]
 कहानी:कहान  #story
 रीति:रीत   #method
 दासी:दास  #maid
+टोकरी:टोकर  #basket
 
 
 LEXICON NounRoot[irr_g]
@@ -322,6 +323,7 @@ LEXICON NounRoot[irr_i]
 
 LEXICON NounRoot[reg]
 गाड़ा:गाड़ा   
+शब्द:शब्द  #word
 रिवाज:रिवाज  #tradition / ritual
 विध्वा:विध्वा  #widow
 विचार:विचार  #thought
@@ -386,6 +388,7 @@ LEXICON NounRoot[reg]
 बिमार:बिमार   #person who is sick
 मण्डली:मण्डली  #circle / group
 शैतान:शैतान  #devil
+शैताना:शैताना  #Dir/ LR
 वादा:वादा  #promise
 जेल:जेल  #jail
 समझ:समझ  #understanding
@@ -466,6 +469,7 @@ LEXICON NounRoot[reg]
 द्वार:द्वार  #door
 जानवर:जानवर  #animal
 इस्राएली:इस्राएली
+इस्राएला:इस्राएला  #Dir/ LR
 यहूदी:यहूदी
 झील:झील  #lake
 खुटा:खुटा #leg
@@ -621,7 +625,23 @@ LEXICON NounRoot[reg]
 
 
 LEXICON NounRoot
+मौसम:मौसम   #weather/ season
+अकाल:अकाल  #famine/ drought
+व्यभिचार:व्यभिचार  #adultery
+विरोधी:विरोधी   #opponent/enemy
+सामना:सामना  #confrontation
+सम्पत्ति:सम्पत्ति   #wealth/ property
+शोक:शोक  #greif
+खमीर:खमीर  #yeast
+बात-चीत:बात-चीत  #conversation
 हुकमो:हुकमो  #Dir/ LR
+मूर्खता:मूर्खता  #foolishness
+रखवाली:रखवाली  #guarding
+मजबूती:मजबूती  #strength
+बोझ:बोझ  #burden
+बिपत्ति:बिपत्ति  #adversity
+तसल्ली:तसल्ली  #assurance
+ठोकर:ठोकर  #stumble
 हिसाब:हिसाब  #calcualtion/ account
 श्राप:श्राप  #curse
 शिकार:शिकार  #prey/ hunt
@@ -957,6 +977,11 @@ LEXICON ProperNoun
 कुरनेलियुस<np>:कुरनेलियुस
 मलिकिसिदक<np>:मलिकिसिदक
 फेस्तुस<np>:फेस्तुस
+इलीशिबा<np>:इलीशिबा
+अग्रिप्पा<np>:अग्रिप्पा
+हनन्याह<np>:हनन्याह
+याफा<np>:याफा
+
 
 LEXICON Case
 का<post><gen><sg_o><m_o>:का
@@ -1142,6 +1167,7 @@ LEXICON Determiner
 दस<det>:दस   #10
 तिहाई<det>:तिहाई  #one-third
 तीस<det>:तीस  #30
+दसवाँ<det>:दसवाँ   #tenth
 
 
 LEXICON Postposition
@@ -1386,6 +1412,15 @@ LEXICON Adjective
 घमंडी<adj>:घमंडी  #arrogant
 अन्धो<adj>:अन्धो   #blind
 शक्तिशाली<adj>:शक्तिशाली  #powerful
+भुखो<adj>:भुखो   #hungry
+बितर<adj>:बितर  #scattered
+निडर<adj>:निडर   #fearless
+तितर-बितर<adj>:तितर-बितर  #chaotic
+चमकदार<adj>:चमकदार   #shiny
+मेहंगा<adj>:मेहंगा   #expensive
+मुश्किल<adj>:मुश्किल   #difficult
+शरीराक<adj>:शरीराक  #related to body
+
 
 
 LEXICON Adverb
@@ -1492,6 +1527,7 @@ LEXICON Verb[pres1,pres23,past,fut1,fut23,cont,perf,comp]
 काट:काट   #to cut
 धो:धो   #wash
 मेल:मेल   #meet
+मिल:मिल  #meet
 जला:जला   #ignite
 ढक:ढक   #cover
 झुक:झुक   #bend/ bow
@@ -1564,6 +1600,9 @@ LEXICON Verb[pres1,pres23,past,fut1,fut23,cont,perf,comp]
 बिछा:बिछा   #to spread/ lay
 धध्या:धध्या
 दौड़:दौड़  #to run
+डाँठ:डाँठ  #to scold
+उड़:उड़   #to fly
+लौट:लौट   #to return
 
 LEXICON Verb[pres1,pres23,past,fut1,fut23,cont,comp]
 चाँ:चाँ  #want/ wish
@@ -1675,6 +1714,11 @@ LEXICON Verb
 माँग<ger>:माँगून    #gerund of ask/ demand
 बैठ<ger>:बैठून    #gerund of to sit
 ल्या<ger>:ल्यून   #gerund of bring
+पैन<ger>:पैनून   #gerund of to wear
+निकाल<ger>:निकालून  #gerund of to take out
+डाँठ<ger>:डाँठून   #gerund of to scold
+काट<ger>:काटून   #gerund of cut
+उड़<ger>:उड़ून   #gerund of fly
 
 
 मार<ger>:मारन      #gerund of kill
@@ -1712,6 +1756,7 @@ LEXICON Verb
 मार<ger>:मारना  #gerund of to kill
 राख<ger>:राखना   #gerund of keep
 देख<ger>:देखना   #gerund of to see
+कुं<ger>:कुंना   #gerund of say
 
 
 खा<ger>:खानो  #gerund of eat   --check all नो forms
@@ -1744,6 +1789,7 @@ LEXICON Verb
 मिल<ger>:मिलीना   #gerund of get
 पड़<ger>:पड़ीना  #gerund of get involved
 देख<ger>:देखीना   #gerund of to see
+खुल<ger>:खुलीना   #gerund of open
 
 
 द्याल<ger>:द्यलो   #gerund of put
@@ -1815,6 +1861,7 @@ LEXICON IrregVerbs
 जा<v><imperf><desire><p3>:जौ
 जा<v><imperf><desire><p1>:जून
 जा<v><pres><sim><p1><sg>:जाछूँ
+जा<v><fut><sim><p1><sg>:ज्यूलो
 जा<v><fut><sim><p1><pl>:जूलो
 जा<v><fut><sim><p3><sg><f>:जालि  #Dir/LR  --same as जाली
 
@@ -1847,6 +1894,8 @@ LEXICON IrregVerbs
 कु<v><sim>:कु     #Dir/LR
 कु<v><pres><sim><p1><sg>:कुछूँ
 
+कू<v><pres><sim><p3><sg><m>:कूछो #Dir/ LR
+
 दी:दी[pres1,pres23,past,cont,comp]  #to give
 दी:दीयू[fut1]
 दी:दे[fut23,comp]
@@ -1876,6 +1925,9 @@ LEXICON IrregVerbs
 सोच<v><pres>:सोचा
 
 बतू<v><pres><sim>:बतूछो
+बता<v><indef><instruct>:बतो
+
+हिट<v><imperf><instruct>:हिटा
 
 कर<v><sim>:कर
 कर<v><cont>:करनै
@@ -1922,6 +1974,7 @@ LEXICON IrregVerbs
 चा<v><past><sim><p3><sg><f>:चैछी  #Dir/LR
 चाँ<v><pres><sim><p1><sg>:चाछूँ  #Dir/LR  --same as चानू
 चाँ<v><pres><sim><p1><sg>:चाँछू
+चाँ<v><pres><sim><p3><sg>:चांछो
 चाँ<v><pres><sim><p3><pl>:चाँयान  #Dir/LR  --same as चाँनान
 
 देख<v><simple>:देखछ्य
@@ -1937,7 +1990,9 @@ LEXICON IrregVerbs
 आ<v><imperf><instruct>:आया
 आ<v><pres><sim><p1><sg>:आरयूँ  #Dir/LR
 आ<v><pres><sim><p1><pl>:आरयाँ   #Dir/LR
+आ<v><pres><sim><p3><sg><f>:उछी
 आ<v><pres><sim><p3><sg><m>:उछो
+आ<v><pres><sim><p3><sg><m>:ऊँछो  #Dir/ LR
 आ<v><pres><sim><p3><pl>:आयान  #Dir/LR --same as आनान
 आ<v><pres><sim><p3><pl>:उनान  #Dir/ LR
 आ<v><fut><sim><p3><sg><m>:उलो
@@ -2006,6 +2061,7 @@ LEXICON IrregVerbs
 छोड़<v><imperf><instruct>:छोड़िना
 बोल<v><imperf><instruct>:बोलना
 माँग<v><imperf><instruct>:माँगो
+मिल<v><imperf><instruct>:मिल्यो
 
 चढ़ा<v><imperf><instruct>:चढ़ाये
 
@@ -2066,16 +2122,17 @@ LEXICON Compound
 खोर<n>+की<post><gen><sg_o><f_o>:खोराकी   #of head
 नाम<n>+का<post><gen><sg_o><m_o>:नामाका  #of name
 मूर्ख<n>+का<post><gen><sg_o><m_o>:मूर्खाका
-आदिमीn>+का<post><gen><sg_o><m_o>:आदिमीक
+आदिमी<n>+का<post><gen><sg_o><m_o>:आदिमीक
 मसीह<n>+क<post><gen><sg_o>:मसीहक
 संसार<n>+क<post><gen><sg_o>:संसाराक
 प्रभु<n>+क<post><gen><sg_o>:प्रभुक
 नाम<n>+को<post><gen><sg_o><m_o>:नामोको
 परमेश्वर<n>+को<post><gen><sg_o><m_o>:परमेश्वरोको
-धरती+का<post><gen><sg_o><m_o>:धरतीका
-मरिना<ger>+का<post><gen><sg_o><m_o>:मरिनाका
-करिना<ger>+को<post><gen><sg_o><m_o>:करिनाको
-पड़ीना<ger>+को<post><gen><sg_o><m_o>:पड़ीनाको
+धरती<n>+का<post><gen><sg_o><m_o>:धरतीका
+मर<ger>+का<post><gen><sg_o><m_o>:मरिनाका
+कर<ger>+को<post><gen><sg_o><m_o>:करिनाको
+पड़<ger>+को<post><gen><sg_o><m_o>:पड़ीनाको
+बैठ<ger>+को<post><gen><sg_o><m_o>:बैठिनाको
 यीशु<n>+क<post><gen><sg_o>:यीशुक
 यीशु<n>+का<post><gen><sg_o><m_o>:यीशुका
 कै<pron>+की<post><gen><sg_o><f_o>:कैकी  #someone's
@@ -2097,22 +2154,27 @@ LEXICON Compound
 तै<pron>+ले<adv>:तैले  #Dir/LR  --you 
 जे<pron>+ले<adv>:जैले
 
-sपुरखान<n><pl>+ले<post><able>:पुरखानले
+पुरखान<n><pl>+ले<post><able>:पुरखानले
 परमेश्वरै<n>+ले<post><able>:परमेश्वरेले
 परमेश्वर<n>+ले<post><able>:परमेश्वरले
 नाम<n>+ले<post><able>:नामेंले	#by name
 तरीका<n>+ले<post><abl>:तरीकाले  #through a way
 जरिया<n>+ले<post><abl>:जरियाले  #through a medium / way
 पतरस<n>+ले<post><abl>:पतरसले
+नाम<n>+ले<post><abl>:नामले
+लोग<n>+ले<post><abl>:लोगूनले
 हमून<pron>+ले<post><abl>:हमूनले
 जिनून<pron>+ले<post><abl>:जिनूनले 
 ये<pron>+ले<post><abl>:येले  #he / she
 
 यीशु<n>+स<post><abl>:यीशुस
+कपाड़ा<n>+स<post><abl>:कपाड़ास
 ये<pron>+स<post><abl>:येस   #him/ her
 यै<pron>+स<post><abl>:यैस  #Dir / LR
 परमेश्वर<n>+स<post><abl>:परमेश्वरेस
 पौलुस<n>+स<post><abl>:पौलुसैस
+
+उ<pron>+है<post><abl>:उहै
 
 जैस<pron>+में<post>:जैमें    #in which 
 त्यारा<pron>+में<post>:तैमें     #in you
@@ -2126,14 +2188,17 @@ sपुरखान<n><pl>+ले<post><able>:पुरखानले
 
 लोग<n><pl>+थैं<post><abl>:लोगूनथैं
 परमेश्वर<n>+थैं<post><abl>:परमेश्वरथैं
+यीशु<n>+थैं<post><abl>:यीशुथै
 तैं<pron>+थैं<post><abl>:तैथैं    #from you
 मैं<pron>+थैं<post><abl>:मैथैं	#from me
 मैं<pron>+थैं<post><abl>:मैंथैं	#Dir/LR
 मैं<pron>+थैं<post><abl>:मैंथै   #Dir/ LR
 कै<pron>+थैं<post><abl>:कैंथैं  #from someone
+कै<pron>+थैं<post><abl>:कैथैं  #Dir/ LR
 तुमून<pron>+थैं<post><abl>:तुमूनथैं  #from you
 उन<pron>+थैं<post><abl>:उनूथैं  #from them
 हमून<pron>+थैं<post><abl>:हमूनथैं  #from us
+
 
 उई<pron>+कैं<part>:उसीकैं   #instantly
 जैस<pron>+कैं<part>:जसकैं   #instantly
@@ -2217,7 +2282,7 @@ LEXICON Interjection
 धन्यवाद<ij>:धन्यवाद   #thanks
 धन्यबाद<ij>:धन्यबाद  #Dir/ LR
 हाय<ij>:हाय   #oh
-
+बाँक<ij>:बाँक   #kukdookoo
 
 
 PATTERN Number
