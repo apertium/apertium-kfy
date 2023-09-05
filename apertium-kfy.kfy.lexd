@@ -52,6 +52,7 @@ Conjunction
 Adjective
 Adverb
 Verb[noinf] NoVerbInfl
+Verb[ger] Gerund
 Verb[pres1] Pres1Infl
 Verb[pres23] Pres23Infl
 Verb[past] PastInfl
@@ -75,7 +76,7 @@ Interjection
 
 ## Example inflection lexicon:
 LEXICON NoNounInfl
-:
+<n><sg>:
 
 LEXICON RegNounInfl
 <n><sg>:
@@ -175,6 +176,10 @@ LEXICON NoVerbInfl
 
 LEXICON NoIrrVerbInfl
 :
+
+LEXICON Gerund
+<v><ger>:
+
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -1985,173 +1990,175 @@ LEXICON Verb[noinf]
 
 सक:सक[pres1,pres23,past,fut1,fut23]  #to be able
 
-बोल<ger>:बोलून   #gerunf of talk/ speak
-हिट<ger>:हिटून   #gerund of walk
-कर<ger>:करून     #gerund of do
-पुछ<ger>:पुछून    #gerund of ask
-जाण<ger>:जाणून     #gerund of जाण (to know)
-मर<ger>:मरून     #gerund of मरू (to die)
-सिख<ger>:सिखून     #gerund of to learn
-खोज<ger>:खोजून   #gerund of to search
-मार<ger>:मारून   #gerund of to kill
-हटा<ger>:हटून    #gerund of remove
-चढ़<ger>:चढ़ून  #gerund of climb
-पकड़<ger>:पकड़ून   #gerund of catch/ hold
-सता<ger>:सतून    #gerund of torture / torment
-पड़<ger>पड़ून   #gerund of being in a situation
-सुण<ger>:सुणून   #gerund of listen
-मान<ger>:मानून   #gerund of believe
-राख<ger>:राखून   #gerund of keep
-बता<ger>:बतून   #gerund of tell
-सक<ger>:सकून   #gerund of able
-लग<ger>:लगून   #gerund of apply
-मिल<ger>:मिलून   #gerund of get
-सोच<ger>:सोचून   #gerund of to think
-पुज<ger>:पुजून   #gerund of to pray / reach
-दिख<ger>:दिखून   #gerund of visible
-डाल<ger>:डालून   #gerund of put
-चल<ger>:चलून   #gerund of walk
-लिख<ger>:लिखून  #gerund of to write
-भेज<ger>:भेजून   #gerund of send
-उठ<ger>:उठून   #gerund of wake/ stand
-चमक<ger>:चमकून   #gerund of shine
-निकल<ger>:निकलून  #gerund of come out
-लाग<ger>:लागून    #gerund of to start
-माँग<ger>:माँगून    #gerund of ask/ demand
-बैठ<ger>:बैठून    #gerund of to sit
-ल्या<ger>:ल्यून   #gerund of bring
-पैन<ger>:पैनून   #gerund of to wear
-निकाल<ger>:निकालून  #gerund of to take out
-डाँठ<ger>:डाँठून   #gerund of to scold
-काट<ger>:काटून   #gerund of cut
-उड़<ger>:उड़ून   #gerund of fly
-डर<ger>:डरून  #gerund of fear
-फैल<ger>:फैलून   #gerund of spread
-परख<ger>:परखून   #gerund of examine
-जल<ger>:जलून    #gerund of burn
-छोड़<ger>:छोड़ून   #gerund of leave
-छोड़<ger>:छुड़ून   #Dir/LR
-बना<ger>:बनून    #gerund of make
-बुल<ger>:बुलून   #gerund of speak/ talk
-उतर<ger>:उतरून   #gerund of "to come down"
-सिख<ger>:सिखूना   #gerund of learn
-लड़<ger>:लड़ून    #gerund of fight
 
-मार<ger>:मारन      #gerund of kill
-कु<ger>:कुन     #Dir/LR 
-कुं<ger>:कुंन  #gerund of say
-हो<ger>:हुन  #gerung of to happen
-रू<ger>:रून   #gerund of to stay
-लीजा<ger>:लीजान   #gerund of carry
-पा<ger>:पान  #gerund of to receive
-कर<ger>:कर्यान
-ली<ger>:लीन    #gerung of to take
-जी<ger>:जीन   #gerund of to live
-ल्या<ger>:ल्यान   #gerund of bring
-कर<ger>:करन   #gerund of do
-देख<ger>:देखन   #gerund of to see
-बिछा<ger>:बिछान   #gerund of lay
-सुण<ger>:सुणन   #gerund of listen
-पि<ger>:पिन    #gerund of drink
-हिट<ger>:हिटन   #gerund of walk
-गर्ज<ger>:गर्जन    #gerund of roar
+LEXICON Verb[ger]
+बोल:बोलून   #gerunf of talk/ speak
+हिट:हिटून   #gerund of walk
+कर:करून     #gerund of do
+पुछ:पुछून    #gerund of ask
+जाण:जाणून     #gerund of जाण (to know)
+मर:मरून     #gerund of मरू (to die)
+सिख:सिखून     #gerund of to learn
+खोज:खोजून   #gerund of to search
+मार:मारून   #gerund of to kill
+हटा:हटून    #gerund of remove
+चढ़:चढ़ून  #gerund of climb
+पकड़:पकड़ून   #gerund of catch/ hold
+सता:सतून    #gerund of torture / torment
+पड़पड़ून   #gerund of being in a situation
+सुण:सुणून   #gerund of listen
+मान:मानून   #gerund of believe
+राख:राखून   #gerund of keep
+बता:बतून   #gerund of tell
+सक:सकून   #gerund of able
+लग:लगून   #gerund of apply
+मिल:मिलून   #gerund of get
+सोच:सोचून   #gerund of to think
+पुज:पुजून   #gerund of to pray / reach
+दिख:दिखून   #gerund of visible
+डाल:डालून   #gerund of put
+चल:चलून   #gerund of walk
+लिख:लिखून  #gerund of to write
+भेज:भेजून   #gerund of send
+उठ:उठून   #gerund of wake/ stand
+चमक:चमकून   #gerund of shine
+निकल:निकलून  #gerund of come out
+लाग:लागून    #gerund of to start
+माँग:माँगून    #gerund of ask/ demand
+बैठ:बैठून    #gerund of to sit
+ल्या:ल्यून   #gerund of bring
+पैन:पैनून   #gerund of to wear
+निकाल:निकालून  #gerund of to take out
+डाँठ:डाँठून   #gerund of to scold
+काट:काटून   #gerund of cut
+उड़:उड़ून   #gerund of fly
+डर:डरून  #gerund of fear
+फैल:फैलून   #gerund of spread
+परख:परखून   #gerund of examine
+जल:जलून    #gerund of burn
+छोड़:छोड़ून   #gerund of leave
+छोड़:छुड़ून   #Dir/LR
+बना:बनून    #gerund of make
+बुल:बुलून   #gerund of speak/ talk
+उतर:उतरून   #gerund of "to come down"
+सिख:सिखूना   #gerund of learn
+लड़:लड़ून    #gerund of fight
 
-मर<ger>:मरना      #gerund of die 
-बन<ger>:बनना     #gerund of make
-पकड़<ger>:पकड़ना  #gerund of to catch
-तोड़<ger>:तोड़ना  #gerund of to break
-लिख<ger>:लेखना   #Dir/LR
-ली<ger>:लीना   #gerung of to take
-हो<ger>:हुना  #Dir/LR
-खत<ger>:खतना
-ढक<ger>:ढकना  #gerund of to cover
-मान<ger>:मानना #gerund to accept / acknowledge  
-दी<ger>:दीना   #gerund of to give
-समझ<ger>:समझना   #gerund of to understand
-पा<ger>:पाना   #gerund of get / receive
-रू<ger>:रूना   #gerund of to stay
-मार<ger>:मारना  #gerund of to kill
-राख<ger>:राखना   #gerund of keep
-देख<ger>:देखना   #gerund of to see
-कुं<ger>:कुंना   #gerund of say
-कुं<ger>:कुना   #Dir/LR
-भेज<ger>:भेजना   #gerund of send
-मिल<ger>:मिलना   #gerund of get
-रोक<ger>:रोकना   #gerund of stop
-सुण<ger>:सुणना   #gerund of listen
+मार:मारन      #gerund of kill
+कु:कुन     #Dir/LR 
+कुं:कुंन  #gerund of say
+हो:हुन  #gerung of to happen
+रू:रून   #gerund of to stay
+लीजा:लीजान   #gerund of carry
+पा:पान  #gerund of to receive
+कर:कर्यान
+ली:लीन    #gerung of to take
+जी:जीन   #gerund of to live
+ल्या:ल्यान   #gerund of bring
+कर:करन   #gerund of do
+देख:देखन   #gerund of to see
+बिछा:बिछान   #gerund of lay
+सुण:सुणन   #gerund of listen
+पि:पिन    #gerund of drink
+हिट:हिटन   #gerund of walk
+गर्ज:गर्जन    #gerund of roar
 
-
-हो<ger>:हुनो  #Dir/LR
-डाल<ger>:डालूनो   #gerund of to put
-मिल<ger>:मिलूनो   #gerund of get
-
-खा<ger>:खानो  #gerund of eat   --check all नो forms
-दी<ger>:दीनो   #Dir/LR
-मान<ger>:माननो
-जी<ger>:जीनो  #gerund of live
-कर<ger>:करनो  #gerund of do
-राख<ger>:राखनो   #gerund of keep
-पा<ger>:पानो   #gerund of get
-ली<ger>:लीनो   #gerund of take
+मर:मरना      #gerund of die 
+बन:बनना     #gerund of make
+पकड़:पकड़ना  #gerund of to catch
+तोड़:तोड़ना  #gerund of to break
+लिख:लेखना   #Dir/LR
+ली:लीना   #gerung of to take
+हो:हुना  #Dir/LR
+खत:खतना
+ढक:ढकना  #gerund of to cover
+मान:मानना #gerund to accept / acknowledge  
+दी:दीना   #gerund of to give
+समझ:समझना   #gerund of to understand
+पा:पाना   #gerund of get / receive
+रू:रूना   #gerund of to stay
+मार:मारना  #gerund of to kill
+राख:राखना   #gerund of keep
+देख:देखना   #gerund of to see
+कुं:कुंना   #gerund of say
+कुं:कुना   #Dir/LR
+भेज:भेजना   #gerund of send
+मिल:मिलना   #gerund of get
+रोक:रोकना   #gerund of stop
+सुण:सुणना   #gerund of listen
 
 
-बन<ger>:बनिना   #Dir/LR
-राख<ger>:राखिना  #gerund of to keep
-बैठ<ger>:बैठिना  #gerund of to sit
-मर<ger>:मरिना    #gerund of die
-चुन<ger>:चुनिना   #gerund of choose
-भर<ger>:भरिना   #gerund of to fill
-पैन<ger>:पैनिना   #gerund of wear
-भेज<ger>:भेजिना  #gerund of send
-बच<ger>:बचिना   #gerund of survive/ safe
-लाग<ger>:लागिना   #gerund of to start
-बाँद<ger>:बाँदिना   #gerund of tie
+हो:हुनो  #Dir/LR
+डाल:डालूनो   #gerund of to put
+मिल:मिलूनो   #gerund of get
+
+खा:खानो  #gerund of eat   --check all नो forms
+दी:दीनो   #Dir/LR
+मान:माननो
+जी:जीनो  #gerund of live
+कर:करनो  #gerund of do
+राख:राखनो   #gerund of keep
+पा:पानो   #gerund of get
+ली:लीनो   #gerund of take
 
 
-कु<ger>:कईना  #Dir/LR 
-हो<ger>:होईना  #Dir/LR
-दी<ger>:दीईना   #gerund of to give
-दी<ger>:दिईना  #Dir/LR
-आ<ger>:आईना   #gerund of to come
-बुला<ger>:बुलाईना   #gerund of call
-चढ़ा<ger>:चढ़ाईना    #gerund of offer
-ली<ger>:लीईना   #gerund of take
-बता<ger>:बताईना   #gerund of tell
-बाता<ger>:बाताईना  #Dir/LR
-हरा<ger>:हराईना    #gerund of lose
-सिखा<ger>:सिखाईना   #gerund of teach
-डाल<ger>:डालीना   #gerund of to put
-लिख<ger>:लिखीना #gerund of to write
-मिल<ger>:मिलीना   #gerund of get
-पड़<ger>:पड़ीना  #gerund of get involved
-देख<ger>:देखीना   #gerund of to see
-खुल<ger>:खुलीना   #gerund of open
-लुक<ger>:लुकीना    #gerund of hide
-लिख<ger>:लिखीना   #gerund of write
+बन:बनिना   #Dir/LR
+राख:राखिना  #gerund of to keep
+बैठ:बैठिना  #gerund of to sit
+मर:मरिना    #gerund of die
+चुन:चुनिना   #gerund of choose
+भर:भरिना   #gerund of to fill
+पैन:पैनिना   #gerund of wear
+भेज:भेजिना  #gerund of send
+बच:बचिना   #gerund of survive/ safe
+लाग:लागिना   #gerund of to start
+बाँद:बाँदिना   #gerund of tie
 
 
-द्याल<ger>:द्यलो   #gerund of put
-पत्त<ger>:पत्तो  #gerund of to know
+कु:कईना  #Dir/LR 
+हो:होईना  #Dir/LR
+दी:दीईना   #gerund of to give
+दी:दिईना  #Dir/LR
+आ:आईना   #gerund of to come
+बुला:बुलाईना   #gerund of call
+चढ़ा:चढ़ाईना    #gerund of offer
+ली:लीईना   #gerund of take
+बता:बताईना   #gerund of tell
+बाता:बाताईना  #Dir/LR
+हरा:हराईना    #gerund of lose
+सिखा:सिखाईना   #gerund of teach
+डाल:डालीना   #gerund of to put
+लिख:लिखीना #gerund of to write
+मिल:मिलीना   #gerund of get
+पड़:पड़ीना  #gerund of get involved
+देख:देखीना   #gerund of to see
+खुल:खुलीना   #gerund of open
+लुक:लुकीना    #gerund of hide
+लिख:लिखीना   #gerund of write
 
-आ<ger>:उन     #gerund of to come
-आ<ger>:ऊँन     #Dir/LR
-आ<ger>:उना     #Dir/LR
-दी<ger>:दिन    #gerung of to give
+
+द्याल:द्यलो   #gerund of put
+पत्त:पत्तो  #gerund of to know
+
+आ:उन     #gerund of to come
+आ:ऊँन     #Dir/LR
+आ:उना     #Dir/LR
+दी:दिन    #gerung of to give
 
 
-कुचल<ger>:कुचली  #gerund of to crush
+कुचल:कुचली  #gerund of to crush
 
-बना<ger>:बनूना
-मर<ger>:मरिन
-बच<ger>:बचुन
-कर<ger>:करूना
-लग<ger>:लगूना
-कर<ger>:करूनी
+बना:बनूना
+मर:मरिन
+बच:बचुन
+कर:करूना
+लग:लगूना
+कर:करूनी
 
-जाग<ger>:जाग         #gerund of wake
-ठाड़<ger>:ठाड़     #gerund of stand
-देख<ger>:देख  #gerung of to see
-लिख<ger>:लिख    #Dir/LR
+जाग:जाग         #gerund of wake
+ठाड़:ठाड़     #gerund of stand
+देख:देख  #gerung of to see
+लिख:लिख    #Dir/LR
 
 LEXICON IrregVerbs[noirrinf]
 छ<v><pres><sim>:छ
