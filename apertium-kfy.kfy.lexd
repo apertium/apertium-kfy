@@ -51,7 +51,7 @@ Pronoun
 Conjunction
 Adjective
 Adverb
-Verb
+Verb[noinf] NoVerbInfl
 Verb[pres1] Pres1Infl
 Verb[pres23] Pres23Infl
 Verb[past] PastInfl
@@ -60,7 +60,7 @@ Verb[fut23] Fut23Infl
 Verb[perf] PerfInfl
 Verb[cont] ContInfl
 Verb[comp] CompInfl
-IrregVerbs
+IrregVerbs[noirrinf] NoIrrVerbInfl
 IrregVerbs[pres1] Pres1Infl
 IrregVerbs[pres23] Pres23Infl
 IrregVerbs[past] PastInfl
@@ -75,7 +75,7 @@ Interjection
 
 ## Example inflection lexicon:
 LEXICON NoNounInfl
-<n>:
+:
 
 LEXICON RegNounInfl
 <n><sg>:
@@ -170,7 +170,11 @@ LEXICON CompInfl
 LEXICON ContInfl
 <v><cont>:>नै
 
+LEXICON NoVerbInfl
+<v>:
 
+LEXICON NoIrrVerbInfl
+:
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -1917,68 +1921,67 @@ LEXICON Verb[pres1,pres23,past,fut1,fut23,comp]
 पुज:पुज  #to pray / reach
  
 
-LEXICON Verb
-अगुवा<v>:अगुवा #to abduct/kidnap
-ठैरा<v><m>:ठैरा   #to stay / still
-ठैरी<v><f>:ठैरी   #to stay / still
-विनती<v>:विनती   #request
-राज्य<v>:राज्य   #rule
-नाश<v>:नाश   #destroy
-परखी<v><f>:परखी   #examined/ tested
-परखा<v><m>:परखा   #examined/ tested
-माफ<v>:माफ   #forgive
-हाल<v>:हाल   #put
-जामा<v>:जामा   #collect/ store
-त्याग<v>:त्याग   #resign/ sacrifice
-मालूम<v>:मालूम   #came to know
-डण्यून<v>:डण्यून   #crying
-पैद<v>:पैद  #to be born
-लुक<v>:लुक	 #to hide 
-बसिना<v>:बसिना  #to settle
-बन्द<v>:बन्द	 #to close
-बंद<v>:बंद  #Dir/LR
-शुरू<v>:शुरू  #to start
-फैल<v>:फैल	 #to spread
-जीना<v>:जीना  #to live
-हुकुम<v>:हुकुम #to order
-साबित<v>:साबित #to prove
-ढोक<v>:ढोक  #to saluted
-टल<v>:टल  #to delay
-टाल<v>:टाल  #Dir/LR
-प्रगट<v>:प्रगट  #reveal/ appear
-प्रकट<v>:प्रकट  #Dir/LR
-ठाँड़<v>:ठाँड़  #to stand
-ठाँड़ा<v>:ठाँड़ा    #Dir/LR
-ग्रहण<v>:ग्रहण   #to consume
-चुप<v>:चुप  #silent
-खिती<v>:खिती #to throw
-खित<v>:खित  #Dir/LR
-ज्या<v>:ज्या  #to become
-चमक<v>:चमक  #to shine
-पड़ो<v>:पड़ो   #Dir/LR
-लुका<v>:लुका   #hide
-सह<v>:सह   #tolerate
-भटक<v>:भटक  #wander
-महसूस<v>:महसूस  #feel/ sense
-भाजि<v>:भाजि  #run
-बाँदि<v>:बाँदि   #tie
-प्राप्त<v>:प्राप्त  #obtain
-जी<v>:जी  #to live
-गिनी<v>:गिनी   #count
-काटि<v>:काटि  #cut
-खो<v>:खो   #lose
-खत्म<v>:खत्म   #finish/ end
-भूल<v>:भूल  #forget
-पतो<v>:पतो   #get to know something
-घटना<v>:घटना   #to reduce/ to happen
-ज<v>:ज   #Dir/LR --go
-हिलाई<v>:हिलाई   #to sahke/ move
-हरा<v>:हरा   #to lose
-समझो<v>:समझो   #to understand
-रूक<v>:रूक    #to stop
-मिलौ<v>:मिलौ   #to get
-मारा<v>:मारा   #to beat
-
+LEXICON Verb[noinf]
+अगुवा:अगुवा #to abduct/kidnap
+विनती:विनती   #request
+राज्य:राज्य   #rule
+नाश:नाश   #destroy
+माफ:माफ   #forgive
+हाल:हाल   #put
+जामा:जामा   #collect/ store
+त्याग:त्याग   #resign/ sacrifice
+मालूम:मालूम   #came to know
+डण्यून:डण्यून   #crying
+पैद:पैद  #to be born
+लुक:लुक	 #to hide 
+बसिना:बसिना  #to settle
+बन्द:बन्द	 #to close
+बंद:बंद  #Dir/LR
+शुरू:शुरू  #to start
+फैल:फैल	 #to spread
+जीना:जीना  #to live
+हुकुम:हुकुम #to order
+साबित:साबित #to prove
+ढोक:ढोक  #to saluted
+टल:टल  #to delay
+टाल:टाल  #Dir/LR
+प्रगट:प्रगट  #reveal/ appear
+प्रकट:प्रकट  #Dir/LR
+ठाँड़:ठाँड़  #to stand
+ठाँड़ा:ठाँड़ा    #Dir/LR
+ग्रहण:ग्रहण   #to consume
+चुप:चुप  #silent
+खिती:खिती #to throw
+खित:खित  #Dir/LR
+ज्या:ज्या  #to become
+चमक:चमक  #to shine
+पड़ो:पड़ो   #Dir/LR
+लुका:लुका   #hide
+सह:सह   #tolerate
+भटक:भटक  #wander
+महसूस:महसूस  #feel/ sense
+भाजि:भाजि  #run
+बाँदि:बाँदि   #tie
+प्राप्त:प्राप्त  #obtain
+जी:जी  #to live
+गिनी:गिनी   #count
+काटि:काटि  #cut
+खो:खो   #lose
+खत्म:खत्म   #finish/ end
+भूल:भूल  #forget
+पतो:पतो   #get to know something
+घटना:घटना   #to reduce/ to happen
+ज:ज   #Dir/LR --go
+हिलाई:हिलाई   #to sahke/ move
+हरा:हरा   #to lose
+समझो:समझो   #to understand
+रूक:रूक    #to stop
+मिलौ:मिलौ   #to get
+मारा:मारा   #to beat
+ठैरा<m>:ठैरा   #to stay / still
+ठैरी<f>:ठैरी   #to stay / still
+परखी<f>:परखी   #examined/ tested
+परखा<m>:परखा   #examined/ tested
 
 सक:सक[pres1,pres23,past,fut1,fut23]  #to be able
 
@@ -2150,7 +2153,7 @@ LEXICON Verb
 देख<ger>:देख  #gerung of to see
 लिख<ger>:लिख    #Dir/LR
 
-LEXICON IrregVerbs
+LEXICON IrregVerbs[noirrinf]
 छ<v><pres><sim>:छ
 छ<v><pres><p1><sg>:छूँ      #am
 छ<v><pres><p1><sg>:छ्यूँ  #Dir/LR
